@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>E-Card Design</title>
+    <style>
+      ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      ul li{
+        float: left;
+        padding-top: 15px;
+        padding-left: 20px;
+
+      }
+
+      ul li a{
+        text-decoration: none;
+        color: red;
+      }
+
+      ul li a:hover{
+        background-color: lime;
+      }
+
+      #navbarbox{
+        width:1280px;
+        height:50px;
+        position: fixed;
+        background: lime;
+        top: 0px;
+        left: 0px;
+      }
+      #utilbox{
+        width:640px;
+        height:50px;
+        background:green;
+        position:fixed;
+        top:0px;
+        left:1280px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="utilbox">
+      <ul class="navigation">
+        <li><a href="#">Utilities</a></li>
+      </ul>
+    </div>
+    <div id="navbarbox">
+      <ul class="navigation">
+          <li><a href="#">NavBar</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
