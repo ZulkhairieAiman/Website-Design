@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #3c3c3c;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li{
+  float: left;
+  padding-top: 15px;
+  padding-left: 20px;
+
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+  font-family: Century Schoolbook;
+}
+
+ul li a:hover{
+  background-color: lightblue;
+}
+
+nav{
+  background: lime;
+  height: 80px;
+}
+
+nav ul{
+  float: left;
+  margin-left: 20px;
+}
+
+#utilbox{
+  width:800px;
+  height:80px;
+  float: right;
+  margin-right: 0px;
+  background: green;
+}
+.text{
+  position: relative;
+  top: 42px;
+  right: 8px;
+  background: white;
+  width: 100px;
+  height: 50px;
+  border: 2px solid black;
+  border-spacing: inherit;
+  border-bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+#cards{
+  position: relative;
+  top: 42px;
+  right: 8px;
+  background: white;
+  width: 100px;
+  height: 440px;
+  border: 2px solid black;
+  border-spacing: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
