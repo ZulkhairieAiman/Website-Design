@@ -16,7 +16,7 @@ nav{
 nav ul{
   list-style-type: none;
   float: left;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 nav ul li{
@@ -29,6 +29,7 @@ nav ul li a{
   text-decoration: none;
   color: black;
   font-family: Century 'Schoolbook';
+  text-transform: uppercase;
 }
 
 nav ul li a:hover{
@@ -37,7 +38,7 @@ nav ul li a:hover{
 
 #utilbox{
   justify-content: flex-end;
-  display: inline-flex;
+  display: block;
   position: relative;
   top: -80px;
   /* left: 500px; */
@@ -50,10 +51,10 @@ nav ul li a:hover{
 }
 .text{
   position: relative;
-  top: 42px;
+  top: 0px;
   right: 8px;
   background: white;
-  width: 100px;
+  width: 300px;
   height: 50px;
   border: 2px solid black;
   border-spacing: inherit;
@@ -62,16 +63,23 @@ nav ul li a:hover{
   justify-content: center;
 }
 #cards{
-  position: relative;
-  top: 42px;
-  right: 8px;
-  background: white;
-  width: 100px;
   height: 440px;
-  border: 2px solid black;
-  border-spacing: inherit;
-  display: flex;
   align-items: center;
-  justify-content: center;
   text-align: center;
+}
+
+#ecard{
+  display: block;
+  width: 300px;
+  height: 500px;
+  background: white;
+  border: 2px solid black;
+  position: relative;
+  float: right;
+  top: -598px;
+}
+
+#themes{
+  display: flex;
+
 }
