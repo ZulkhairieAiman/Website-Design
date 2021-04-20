@@ -6,45 +6,47 @@
 body{
   background-color: #3c3c3c;
 }
-ul{
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-ul li{
-  float: left;
-  padding-top: 15px;
-  padding-left: 20px;
-
-}
-
-ul li a{
-  text-decoration: none;
-  color: black;
-  font-family: Century Schoolbook;
-}
-
-ul li a:hover{
-  background-color: lightblue;
-}
 
 nav{
   background: lime;
   height: 80px;
 }
 
+
 nav ul{
+  list-style-type: none;
   float: left;
   margin-left: 20px;
 }
 
+nav ul li{
+  float: left;
+  padding-top: 25px;
+  padding-left: 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-family: Century 'Schoolbook';
+}
+
+nav ul li a:hover{
+  background-color: lightblue;
+}
+
 #utilbox{
-  width:800px;
+  justify-content: flex-end;
+  display: inline-flex;
+  position: relative;
+  top: -80px;
+  /* left: 500px; */
+  width: 300px;
   height:80px;
   float: right;
   margin-right: 0px;
   background: green;
+  justify-content: space-around;
 }
 .text{
   position: relative;
