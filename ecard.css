@@ -36,6 +36,19 @@ nav ul li a:hover{
   background-color: lightblue;
 }
 
+img{
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+textarea{
+  width: 250px;
+  height: 100px;
+  display: flex;
+}
+
 #utilbox{
   justify-content: flex-end;
   display: block;
@@ -61,11 +74,29 @@ nav ul li a:hover{
   border-bottom: 0;
   display: flex;
   justify-content: center;
-}
-#cards{
-  height: 440px;
   align-items: center;
-  text-align: center;
+}
+
+#cards{
+  position: relative;
+  top: 0px;
+  right: 8px;
+  background: white;
+  width: 300px;
+  height: 50px;
+  border: 2px solid black;
+  border-spacing: inherit;
+  border-bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 440px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* make scrollbar invisible */
 }
 
 #ecard{
@@ -82,4 +113,15 @@ nav ul li a:hover{
 #themes{
   display: flex;
 
+}
+
+#tools{
+  display: flex;
+  justify-content: center;
+}
+
+.save{
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 15px;
 }
