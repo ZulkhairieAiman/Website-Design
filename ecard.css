@@ -92,8 +92,14 @@ textarea{
   height: 440px;
   overflow-y: scroll;
   overflow-x: hidden;
-
 }
+
+#cards img{
+  /* padding: 10px; */
+  margin: 10px;
+  border: 1px solid grey;
+}
+
 ::-webkit-scrollbar {
     width: 0;  /* Remove scrollbar space */
     background: transparent;  /* make scrollbar invisible */
