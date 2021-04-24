@@ -4,31 +4,31 @@
     <meta charset="UTF-8">
     <title>To be announced</title>
   </head>
-  
+
   <body>
     <h1>Coming soon!</h1>
     <script>
       // Set date for submission date
       var countDownDate = new Date("May 5, 2022 16:00:00").getTime();
-      
+
       // Update the count down every 1 second
       var countdowunfunction = setInterval(function(){
-        
+
         // Get today's date and time
         var now = new Date().getTime();
-        
+
         // Calculate distance between now to submission date
         var distance = countDownDate - now;
-        
+
         //Time calculations for days, hours, minutes and seconds
         var days = Math.floor(distance / (1000 * 60 * 60 * 24));
         var hours = Math.floor((distance % (1000 * 60 * 60 *24)) / (1000 * 60 * 60));
         var minutes = Math.floor((distance % (100 * 60 * 60 * 24)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        
+
         //Output the result in an element with id="demo"
         document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-        
+
         //If the count down reached submission date, write text to Welcome
         if (distance < 0) {
           clearInterval(countdownfunction);
@@ -36,5 +36,7 @@
         }
       }, 1000);
     </script>
+
+    // Test 
   </body>
 </html>
