@@ -15,6 +15,11 @@ textarea{
   display: flex;
 }
 
+#util:hover{
+  background-color: lightblue;
+  cursor: pointer;
+}
+
 #utilbox{
   justify-content: flex-end;
   display: block;
@@ -81,7 +86,6 @@ textarea{
   position: relative;
   float: right;
   top: -590px;
-  z-index: -1;
 }
 
 #themes{
