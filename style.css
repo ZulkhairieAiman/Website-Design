@@ -65,6 +65,14 @@ nav{
   font-size: 17px;
 }
 
+active, nav ul li{
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+nav ul li:hover{
+  border-bottom: : solid 1px transparent;
+  background-color: #36393E;
+}
 /* hamburger button for smaller devices */
 .hamburgerbutton{
   /* to hide hamburger button when on normal display */
