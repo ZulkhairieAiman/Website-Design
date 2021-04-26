@@ -89,7 +89,7 @@ textarea{
 
 }
 
-#list{
+.list{
   display: flex;
   list-style: none;
   border: 1px solid black;
