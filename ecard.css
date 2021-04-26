@@ -4,11 +4,13 @@
 }
 
 body{
-  background-color: #3c3c3c;
+  /* background-color: #3c3c3c; */
+  background-color: #121212;
 }
 
 nav{
-  background: lime;
+  /* background: lime; */
+  background: #4f4794;
   height: 80px;
 }
 
@@ -27,8 +29,14 @@ nav ul li{
 
 nav ul li a{
   text-decoration: none;
-  color: black;
-  font-family: Century 'Schoolbook';
+  /* color: black; */
+  color: white;
+  /* font-family: Century 'Schoolbook'; */
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: 5px;
   text-transform: uppercase;
 }
 
