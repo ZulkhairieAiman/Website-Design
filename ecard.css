@@ -7,8 +7,14 @@ body{
   /* background-color: #3c3c3c; */
   background-color: #121212;
 }
-nav ul li a:hover{
-  background-color: lightblue;
+
+nav ul li{
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+nav ul li:hover{
+  border-bottom: : solid 1px transparent;
+  background-color: #36393E;
 }
 
 img{
