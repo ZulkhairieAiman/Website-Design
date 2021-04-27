@@ -177,3 +177,47 @@ opacity: 0;
 .button .line3{
   transform: rotate(45deg) translate(-5px,-6px);
 }
+
+#cherrybackground{
+  display: block;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url("Media/Images/cherry.gif");
+  background-size: cover;
+  height: 92%;
+  width: 100%;
+  opacity: 0.3;
+  overflow: hidden;
+  z-index: -1;
+}
+
+/* nav ul li a:hover{ */
+  /* background-color: lightblue; */
+/* } */
+
+div p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#title{
+  color: black;
+  position: relative;
+  /* left: 495px;
+  top: 100px; */
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+#desc{
+  /* width: 630px;
+  height: 150px; */
+  color: black;
+  position: relative;
+  /* left: 400px;
+  top: 100px; */
+  font-size: 30px;
+  font-family: sans-serif;
+}
