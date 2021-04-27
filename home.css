@@ -1,3 +1,181 @@
+/*Imported fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  /* Body content to dark mode color */
+  background-color:#121212;
+}
+
+nav{
+  /* adjust the texts/links on nav bar */
+  display: flex;
+  /* justify the texts on nav bar */
+  justify-content: space-around;
+  /* align all texts/links in nav to center */
+  align-items: center;
+  /* adjustment of nav bar height */
+  min-height: 8vh;
+  /* nav bar color to purple */
+  background-color: #4f4794;
+  /* font used by the nav bar */
+  font-family: 'Oswald', sans-serif;
+}
+
+nav ul li{
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+nav ul li:hover{
+  border-bottom: : solid 1px transparent;
+  background-color: #36393E;
+}
+
+footer.footer{
+  position: fixed;
+  height: 25px;
+  width: 100%;
+  background-color: #4f4794;
+  bottom: 0;
+}
+
+.logo{
+  border-style: none;
+  /* text color */
+  color: white;
+  /* Make all logo texts uppercase */
+  text-transform: : uppercase;
+  /* adjust each letter text from each other */
+  letter-spacing: 6px;
+  /* Text font size */
+  font-size: 15px;
+}
+
+.logo a{
+  /* color to hide/mask hyperlink */
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links{
+  /* adjust the links/texts in row*/
+  display: flex;
+  /* links color */
+  background-color: #4f4794;
+  justify-content: space-around;
+  /* adjust width in percent for flexibility */
+  width: 75%;
+}
+
+.nav-links li{
+  /* hide/remove the bullet on link on nav bar */
+  list-style: none;
+}
+
+.nav-links a{
+  color: white;
+  text-decoration: none;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+p.copyright{
+  positon: absolute;
+  line-height: 25px;
+  width: 100%;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  bottom: 0;
+}
+/* hamburger button for smaller devices */
+.hamburgerbutton{
+  /* to hide hamburger button when on normal display */
+  display: none;
+  /* change mouse to hand pointer when hover over the button */
+  cursor: pointer;
+}
+
+.hamburgerbutton div{
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+/* responsive web design for small devices */
+@media screen and(max-width: 1024px){
+  .nav-links{
+    width: 60%;
+  }
+}
+
+/* responsive web design for small devices */
+@media screen and (max-width: 768px) {
+  body{
+    /* hide the content that exceed the max width above */
+    overflow-x: : hidden;
+  }
+  .nav-links{
+    /* moves the links inside hamburger */
+    position: absolute;
+    right: 0px;
+    height: 90vh;
+    top: 8vh;
+    background-color: #4f4794;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+
+  .nav-links li{
+    opacity: 0;
+  }
+
+  .hamburgerbutton{
+    /* to make hamburger button visible on responsive mode */
+    display: block;
+  }
+}
+
+.nav-active{
+  transform: translateX(0%);
+  }
+
+@keyframes navLinkFade {
+    from{
+      opacity: 0;
+      transform: translateX(50px);
+  }
+    to{
+      opacity: 1;
+      transform: translateX(0px);
+  }
+}
+
+.button .line1{
+  transform: rotate(-45deg) translate(-5px,6px);
+}
+
+.button .line2{
+opacity: 0;
+}
+
+.button .line3{
+  transform: rotate(45deg) translate(-5px,-6px);
+}
+
 #test{
   display: block;
   position: absolute;
