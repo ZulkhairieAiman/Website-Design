@@ -5,6 +5,7 @@
   background-image: url("cherry.gif");
   background-size: cover;
   height: 92%;
+  width: 100%;
   opacity: 0.3;
   overflow: hidden;
   z-index: -1;
