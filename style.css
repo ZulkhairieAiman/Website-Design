@@ -1,3 +1,5 @@
+/* Design for all of HTMLs*/
+
 /*Imported fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
@@ -25,6 +27,23 @@ nav{
   background-color: #4f4794;
   /* font used by the nav bar */
   font-family: 'Oswald', sans-serif;
+}
+
+nav ul li{
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+nav ul li:hover{
+  border-bottom: : solid 1px transparent;
+  background-color: #36393E;
+}
+
+footer.footer{
+  position: fixed;
+  height: 25px;
+  width: 100%;
+  background-color: #4f4794;
+  bottom: 0;
 }
 
 .logo{
@@ -66,23 +85,6 @@ nav{
   letter-spacing: 5px;
   font-weight: bold;
   font-size: 17px;
-}
-
-nav ul li{
-  padding: 7px 13px;
-  border-radius: 3px;
-}
-nav ul li:hover{
-  border-bottom: : solid 1px transparent;
-  background-color: #36393E;
-}
-
-footer.footer{
-  position: fixed;
-  height: 25px;
-  width: 100%;
-  background-color: #4f4794;
-  bottom: 0;
 }
 
 p.copyright{
