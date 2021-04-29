@@ -178,12 +178,12 @@ opacity: 0;
   transform: rotate(45deg) translate(-5px,-6px);
 }
 
-img{
+/* .pics{
   border-bottom: 5px solid black;
   border-top: 5px solid black;
   display: flex;
   justify-content: center;
-}
+} */
 
 textarea{
   width: 250px;
@@ -257,6 +257,10 @@ p.copyright{
   /* padding: 10px; */
   margin: 10px;
   border: 1px solid grey;
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+  display: flex;
+  justify-content: center;
 }
 
 ::-webkit-scrollbar {
@@ -291,4 +295,89 @@ p.copyright{
   list-style-type: none;
   margin-left: 20px;
   margin-top: 15px;
+}
+
+#box{
+  background-image: url("Media/E-Cards/Basic corporate e-Card 1.jpg");
+  width: 600px;
+  height: 450px;
+  position: fixed;
+  left: 27.5%;
+  top: 15%;
+  /* border: 1px solid white; */
+}
+
+#pic{
+  /* border: 1px solid red; */
+  width: 80px;
+  height: 70px;
+
+}
+
+#black{
+  position: relative;
+  display: flex;
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100px;
+  /* border: 1px solid red; */
+}
+
+#title1{
+  position: relative;
+  /* border: 1px solid red; */
+  list-style-type: none;
+  font-size: 25px;
+  font-family: arial;
+  font-style: normal;
+  left: 120px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#job2{
+  position: relative;
+  /* border: 1px solid red; */
+  font-size: 20px;
+  font-family: arial;
+  font-style: normal;
+  list-style-type: none;
+  left: 130px;
+  font-style: oblique;
+}
+
+#logo1{
+  /* border: 1px solid red; */
+  width: 320px;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
+.white{
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  color: black;
+  font-size: 20px;
+  height: auto;
+  /* border: 1px solid red; */
+}
+
+.creds1{
+  margin-top: 80px;
+  margin-left: 52px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-style: normal;
+  list-style-type: none;
+  text-indent: 20px;
+  font-weight: bold;
+  /* border: 1px solid red; */
+}
+
+#dash{
+  color: white;
 }
