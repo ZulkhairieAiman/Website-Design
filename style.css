@@ -109,6 +109,48 @@ footer.footer{
   margin-right: auto;
   margin-top: 250px;
   }
+
+.imagebox a{
+  color: white;
+  text-decoration: none;
+}
+
+.corporate{
+  position: absolute;
+  bottom: 0px;
+  line-height: 400px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin: auto;
+  margin-right: 15px;
+  margin-left: 85px;
+}
+
+.formal{
+  position: absolute;
+  bottom: 0px;
+  line-height: 400px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin: auto;
+  margin-right: 15px;
+  margin-left: 455px;
+}
+
+.informal{
+  position: absolute;
+  bottom: 0px;
+  line-height: 400px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin: auto;
+  margin-right: 15px;
+  margin-left: 800px;
+}
+
 .box1,.box2,.box3{
   border: solid 2px;
   width: 300px;
