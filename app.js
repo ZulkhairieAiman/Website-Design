@@ -23,3 +23,13 @@ const navSlide = () => {
 }
 
 navSlide();
+
+//change input value of Cards
+function ChangeMe(){
+  var title = document.getElementById("box1").value;
+
+  if(document.getElementById("box1").value != 0){
+    var box1 = document.getElementById("title1");
+    box1.innerHTML = title;
+  }
+}

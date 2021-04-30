@@ -46,6 +46,11 @@ footer.footer{
   bottom: 0;
 }
 
+button{
+  margin-left: 45%;
+  margin-top: 10%;
+}
+
 .logo{
   border-style: none;
   /* text color */
@@ -316,25 +321,27 @@ p.copyright{
 
 #black{
   position: relative;
-  display: flex;
   color: white;
   font-size: 20px;
-  justify-content: center;
-  align-items: flex-end;
-  height: 100px;
+  height: 74px;
+  margin-left: 59%;
+  margin-top: 5.8%;
   /* border: 1px solid red; */
 }
 
 #title1{
+  display: flex;
+  align-items: flex-end;
   position: relative;
-  /* border: 1px solid red; */
   list-style-type: none;
   font-size: 25px;
   font-family: arial;
   font-style: normal;
-  left: 120px;
   font-style: italic;
   font-weight: bold;
+  width: 100%;
+  height: 40px;
+  /* border: 1px solid red; */
 }
 
 #job2{
@@ -344,8 +351,8 @@ p.copyright{
   font-family: arial;
   font-style: normal;
   list-style-type: none;
-  left: 130px;
   font-style: oblique;
+  left: 5px;
 }
 
 #logo1{
@@ -357,7 +364,7 @@ p.copyright{
 }
 
 .white{
-  margin-top: 10px;
+  margin-top: 5px;
   position: relative;
   display: flex;
   color: black;
