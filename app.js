@@ -27,7 +27,24 @@ navSlide();
 
 //shows ecard1
 function myBox1(){
-  document.getElementById("box").style.display = "block"
+  document.getElementById("logo2").style.display = "none";
+  document.getElementById("initial").style.display = "none";
+  document.getElementById("creds2").style.display = "none";
+  document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/corporate1.jpg')";
+  document.getElementById("box").style.display = "block";
+  document.getElementById("black").style.display = "block";
+  document.getElementById("white").style.display = "flex";
+}
+
+//shows ecard2
+function myBox2(){
+  document.getElementById("black").style.display = "none";
+  document.getElementById("white").style.display = "none";
+  document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/corporate2.jpg')";
+  document.getElementById("box").style.display = "block";
+  document.getElementById("logo2").style.display = "flex";
+  document.getElementById("initial").style.display = "block";
+  document.getElementById("creds2").style.display = "block";
 }
 
 //hides and shows cards depending on themes
@@ -68,7 +85,7 @@ function ChangeMe(){
   var job = document.getElementById("box2").value;
 
   if(document.getElementById("box2").value != 0){
-    var box2 = document.getElementById("job2");
+    var box2 = document.getElementById("job1");
     box2.innerHTML = job;
   }
   var phone1 = document.getElementById("box3").value;
@@ -98,7 +115,7 @@ function ChangeMe(){
   var address = document.getElementById("box7").value;
 
   if(document.getElementById("box7").value != 0){
-    var box7 = document.getElementById("address");
+    var box7 = document.getElementById("address1");
     box7.innerHTML = address;
   }
 }
