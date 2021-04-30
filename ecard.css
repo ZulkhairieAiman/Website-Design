@@ -183,12 +183,13 @@ opacity: 0;
   transform: rotate(45deg) translate(-5px,-6px);
 }
 
-/* .pics{
+.pics{
   border-bottom: 5px solid black;
   border-top: 5px solid black;
   display: flex;
   justify-content: center;
-} */
+  cursor: pointer;
+}
 
 textarea{
   width: 250px;
@@ -239,6 +240,7 @@ p.copyright{
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 #cards{
@@ -303,20 +305,20 @@ p.copyright{
 }
 
 #box{
+  display: none;
   background-image: url("Media/E-Cards/corporate1.jpg");
   width: 600px;
   height: 450px;
   position: fixed;
   left: 27.5%;
   top: 15%;
-  /* border: 1px solid white; */
+  /* border: 1px dotted grey; */
 }
 
 #pic{
   /* border: 1px solid red; */
   width: 80px;
   height: 70px;
-
 }
 
 #black{

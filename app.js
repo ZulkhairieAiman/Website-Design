@@ -24,6 +24,39 @@ const navSlide = () => {
 
 navSlide();
 
+
+//shows ecard1
+function myBox1(){
+  document.getElementById("box").style.display = "block"
+}
+
+//hides and shows cards depending on themes
+function formal(){
+  document.getElementById("sketch1").style.display = "block";
+  document.getElementById("sketch2").style.display = "block";
+  document.getElementById("sketch3").style.display = "none";
+  document.getElementById("sketch4").style.display = "none";
+  document.getElementById("sketch5").style.display = "none";
+  document.getElementById("sketch6").style.display = "none";
+}
+
+function informal(){
+  document.getElementById("sketch1").style.display = "none";
+  document.getElementById("sketch2").style.display = "none";
+  document.getElementById("sketch3").style.display = "block";
+  document.getElementById("sketch4").style.display = "block";
+  document.getElementById("sketch5").style.display = "none";
+  document.getElementById("sketch6").style.display = "none";
+}
+
+function corporate(){
+  document.getElementById("sketch1").style.display = "none";
+  document.getElementById("sketch2").style.display = "none";
+  document.getElementById("sketch3").style.display = "none";
+  document.getElementById("sketch4").style.display = "none";
+  document.getElementById("sketch5").style.display = "block";
+  document.getElementById("sketch6").style.display = "block";
+}
 //change input value of Cards
 function ChangeMe(){
   var title = document.getElementById("box1").value;

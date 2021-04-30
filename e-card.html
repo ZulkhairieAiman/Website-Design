@@ -37,25 +37,27 @@
     </nav>
 
     <script src="app.js"></script>
-    <div class="text">
-      <p>Formal<p>
+
+    <div class="text" id="formal">
+      <p onclick="formal()">Formal<p>
     </div>
-    <div class="text">
-      <p>Informal<p>
+    <div class="text" id="informal">
+      <p onclick="informal()">Informal<p>
     </div>
-    <div class="text">
-      <p>Corporate<p>
+    <div class="text" id="corporate">
+      <p onclick="corporate()">Corporate<p>
     </div>
     <div id="cards">
       <ul>
-        <li><img class="pics" src="Media/E-Cards/sketch1.jpg" width="300px" height="200px"></li>
-        <li><img class="pics" src="Media/E-Cards/sketch2.jpg" width="300px" height="200px"></li>
-        <li><img class="pics" src="Media/E-Cards/sketch3.jpg" width="300px" height="200px"></li>
-        <li><img class="pics" src="Media/E-Cards/sketch4.jpg" width="300px" height="200px"></li>
-        <li><img class="pics" src="Media/E-Cards/sketch5.jpg" width="300px" height="450px"></li>
-        <li><img class="pics" src="Media/E-Cards/sketch6.jpg" width="300px" height="450px"></li>
+        <li><img class="pics" id= "sketch1" src="Media/E-Cards/sketch1.jpg" width="300px" height="200px" onclick="myBox1()"></li>
+        <li><img class="pics" id= "sketch2" src="Media/E-Cards/sketch2.jpg" width="300px" height="200px"></li>
+        <li><img class="pics" id= "sketch3" src="Media/E-Cards/sketch3.jpg" width="300px" height="200px"></li>
+        <li><img class="pics" id= "sketch4" src="Media/E-Cards/sketch4.jpg" width="300px" height="200px"></li>
+        <li><img class="pics" id= "sketch5" src="Media/E-Cards/sketch5.jpg" width="300px" height="450px"></li>
+        <li><img class="pics" id= "sketch6" src="Media/E-Cards/sketch6.jpg" width="300px" height="450px"></li>
     </ul>
     </div>
+
     <div id="box">
       <div id ="black">
   <ul>
@@ -79,6 +81,7 @@
     </div>
     </div>
   </div>
+
     <div id="ecard">
       <div class="list">
       <p>E-Card Tools</p>
@@ -111,6 +114,7 @@
       </ul>
       <button onclick="ChangeMe()">Submit!</button>
     </div>
+
     <div class="text" id="themes">
       Themes
     </div>
