@@ -30,12 +30,21 @@ function myBox1(){
   document.getElementById("logo2").style.display = "none";
   document.getElementById("initial").style.display = "none";
   document.getElementById("creds2").style.display = "none";
+  document.getElementById("ecard5").style.display = "none";
   document.getElementById("input2").style.display = "none";
+  document.getElementById("input5").style.display = "none";
+  document.getElementById("button2").style.display = "none";
+  document.getElementById("button5").style.display = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/corporate1.jpg')";
   document.getElementById("box").style.display = "block";
+  document.getElementById("box").style.position = "fixed";
+  document.getElementById("box").style.width = "600px";
+  document.getElementById("box").style.height = "450px";
+  document.getElementById("box").style.left = "27.5%";
   document.getElementById("black").style.display = "block";
   document.getElementById("white").style.display = "flex";
   document.getElementById("input1").style.display = "block";
+  document.getElementById("button1").style.display = "block";
 }
 
 //shows ecard2
@@ -43,12 +52,44 @@ function myBox2(){
   document.getElementById("black").style.display = "none";
   document.getElementById("white").style.display = "none";
   document.getElementById("input1").style.display = "none";
+  document.getElementById("ecard5").style.display = "none";
+  document.getElementById("input5").style.display = "none";
+  document.getElementById("button1").style.display = "none";
+  document.getElementById("button5").style.display = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/corporate2.jpg')";
   document.getElementById("box").style.display = "block";
+  document.getElementById("box").style.position = "fixed";
+  document.getElementById("box").style.width = "600px";
+  document.getElementById("box").style.height = "450px";
+  document.getElementById("box").style.left = "27.5%";
   document.getElementById("logo2").style.display = "flex";
   document.getElementById("initial").style.display = "block";
   document.getElementById("creds2").style.display = "block";
   document.getElementById("input2").style.display = "block";
+  document.getElementById("button2").style.display = "block";
+}
+
+//shows ecard5
+function myBox5(){
+  document.getElementById("black").style.display = "none";
+  document.getElementById("white").style.display = "none";
+  document.getElementById("input1").style.display = "none";
+  document.getElementById("box").style.display = "none";
+  document.getElementById("logo2").style.display = "none";
+  document.getElementById("initial").style.display = "none";
+  document.getElementById("creds2").style.display = "none";
+  document.getElementById("input2").style.display = "none";
+  document.getElementById("button1").style.display = "none";
+  document.getElementById("button2").style.display = "none";
+  document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/formal1.jpg')";
+  document.getElementById("box").style.display = "block";
+  document.getElementById("box").style.position = "absolute";
+  document.getElementById("box").style.width = "450px";
+  document.getElementById("box").style.height = "600px";
+  document.getElementById("box").style.left = "33.5%";
+  document.getElementById("ecard5").style.display = "block";
+  document.getElementById("input5").style.display = "block";
+  document.getElementById("button5").style.display = "block";
 }
 
 //hides and shows cards depending on themes

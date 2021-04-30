@@ -39,13 +39,13 @@
     <script src="app.js"></script>
 
     <div class="text" id="formal">
-      <p onclick="formal()">Formal<p>
+      <p onclick="formal()">Corporate<p>
     </div>
     <div class="text" id="informal">
       <p onclick="informal()">Informal<p>
     </div>
     <div class="text" id="corporate">
-      <p onclick="corporate()">Corporate<p>
+      <p onclick="corporate()">Formal<p>
     </div>
     <div id="cards">
       <ul>
@@ -53,7 +53,7 @@
         <li><img class="pics" id= "sketch2" src="Media/E-Cards/sketch2.jpg" width="300px" height="200px" onclick="myBox2()"></li>
         <li><img class="pics" id= "sketch3" src="Media/E-Cards/sketch3.jpg" width="300px" height="200px"></li>
         <li><img class="pics" id= "sketch4" src="Media/E-Cards/sketch4.jpg" width="300px" height="200px"></li>
-        <li><img class="pics" id= "sketch5" src="Media/E-Cards/sketch5.jpg" width="300px" height="450px"></li>
+        <li><img class="pics" id= "sketch5" src="Media/E-Cards/sketch5.jpg" width="300px" height="450px" onclick="myBox5()"></li>
         <li><img class="pics" id= "sketch6" src="Media/E-Cards/sketch6.jpg" width="300px" height="450px"></li>
     </ul>
     </div>
@@ -102,8 +102,47 @@
         <li id="url2">Website URL</li>
       </ul>
     </div>
-  </div>
 
+    <!-- ecard5 -->
+    <div id=ecard5>
+    <div id="title2">
+      You're Invited
+    </div>
+    <div class="info">
+      <span>to a&nbsp;</span>
+      <span id="event">formal dinner</span>
+    </div>
+    <div class="info">
+      <span>Hosted by:</span>
+    </div>
+    <div class="list2">
+      <span id="host">Host Name</span>
+    </div>
+    <div class="info">
+      <span id="date">December 12, 2020</span>
+    </div>
+    <div class="list2">
+      <span id="time">8:00 p.m. - 11:00 p.m.</span>
+    </div>
+    <div class="info">
+      <span>at&nbsp;</span>
+      <span id="location">Location Name</span>
+    </div>
+    <div class="normal">
+      <span id="address">Address</span>
+    </div>
+    <div class="normal">
+      <span id="country">Country</span>
+    </div>
+    <div class="info">
+      <span>RSVD to&nbsp;</span>
+      <span id="host">Host Name</span>
+    </div>
+    <div class="normal">
+      <span id="phoneno4">111-111-1111</span>
+    </div>
+</div>
+  </div>
 
     <div id="ecard">
       <div class="list">
@@ -161,6 +200,35 @@
         </li>
       </ul>
       <button id ="button2"onclick="ChangeMe2()">Submit!</button>
+
+      <!-- input ecard5 -->
+      <ul id = "input5">
+        <li class="save"><label>Event Name:</label>
+          <input type="text" placeholder="Event Name" id="box14"/>
+        </li>
+        <li class="save"><label>Host Name:</label>
+          <input type="text" placeholder="Host Name" id="box15"/>
+        </li>
+        <li class="save"><label>Date:</label>
+          <input type="date" id="box16"/>
+        </li>
+        <li class="save"><label>Time:</label>
+          <input type="time"id="box17"/>
+        </li>
+        <li class="save"><label>Location:</label>
+          <input type="text" placeholder="Cresant Hotel" id="box18"/>
+        </li>
+        <li class="save"><label>Address:</label>
+          <textarea id="box19"></textarea>
+        </li>
+        <li class="save"><label>Country</label>
+          <input type="text" placeholder="Dallas, Texas" id="box20"/>
+        </li>
+        <li class="save"><label>Phone No. of Host</label>
+          <input type="tel" placeholder="+111 111 1111" id="box21"/>
+        </li>
+      </ul>
+      <button id ="button5"onclick="ChangeMe5()">Submit!</button>
     </div>
 
     <div class="text" id="themes">

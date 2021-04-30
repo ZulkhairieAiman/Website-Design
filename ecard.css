@@ -310,7 +310,7 @@ p.copyright{
   background-image: url("Media/E-Cards/corporate1.jpg");
   width: 600px;
   height: 450px;
-  position: fixed;
+  position: none;
   left: 27.5%;
   top: 15%;
   /* border: 1px dotted grey; */
@@ -476,5 +476,59 @@ p.copyright{
 }
 
 #button2{
+  display: none;
+}
+
+/* ecard5 */
+
+#ecard5{
+  display: none;
+}
+
+#title2{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: Edwardian Script ITC;
+  font-size: 75px;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  /* border: 1px solid red; */
+}
+
+.list2{
+  display: flex;
+  justify-content: center;
+  font-family: Forte;
+  font-size: 25px;
+  list-style-type: none;
+  /* border: 1px solid red; */
+}
+
+.info{
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: Forte;
+  font-size: 25px;
+  /* border: 1px solid red; */
+}
+
+.normal{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: Forte;
+  font-size: 25px;
+  /* border: 1px solid red; */
+}
+
+#input5{
+  display: none;
+}
+
+#button5{
   display: none;
 }
