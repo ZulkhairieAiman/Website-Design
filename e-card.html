@@ -81,7 +81,7 @@
     <img class="pic" src="Media/Icons/Your Logo.png">
     </div>
     </div>
-    
+
     <!-- ecard2 -->
     <div id="logo2">
       <img class="pic" src="Media/Icons/Your Logo.png">
@@ -97,9 +97,9 @@
         <li>Address</li>
       </ul>
       <ul id="others">
-        <li>Phone Number</li>
-        <li>Email</li>
-        <li>Website URL</li>
+        <li id= "phoneno3">Phone Number</li>
+        <li id="email2">Email</li>
+        <li id="url2">Website URL</li>
       </ul>
     </div>
   </div>
@@ -112,7 +112,9 @@
     <div class="list">
       <p id ="util">Utilities</p>
     </div>
-      <ul id = "input">
+
+    <!-- input ecard1 -->
+      <ul id = "input1">
         <li class="save"><label>Your Name:</label>
           <input type="text" placeholder="Name" id="box1"/>
         </li>
@@ -135,7 +137,30 @@
           <textarea id="box7"></textarea>
         </li>
       </ul>
-      <button onclick="ChangeMe()">Submit!</button>
+      <button id ="button1"onclick="ChangeMe1()">Submit!</button>
+
+      <!-- input ecard2 -->
+      <ul id = "input2">
+        <li class="save"><label>Your Name:</label>
+          <input type="text" placeholder="Name" id="box8"/>
+        </li>
+        <li class="save"><label>Job Title:</label>
+          <input type="text" placeholder="Job Title" id="box9"/>
+        </li>
+        <li class="save"><label>Phone Number:</label>
+          <input type="tel" placeholder="+111 111 1111" id="box10" style="width: 140px"/>
+        </li>
+        <li class="save"><label>Email:</label>
+          <input type="email" placeholder="Cards@gmail.com" id="box11"/>
+        </li>
+        <li class="save"><label>Website URL:</label>
+          <input type="url" placeholder="www.google.com" id="box12"/>
+        </li>
+        <li class="save"><label>Address:</label>
+          <textarea id="box13"></textarea>
+        </li>
+      </ul>
+      <button id ="button2"onclick="ChangeMe2()">Submit!</button>
     </div>
 
     <div class="text" id="themes">

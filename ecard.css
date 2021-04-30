@@ -393,6 +393,14 @@ p.copyright{
   color: white;
 }
 
+#input1{
+  display: none;
+}
+
+#button1{
+  display: none;
+}
+
 /* ecards2 */
 #logo2{
   display: none;
@@ -461,4 +469,12 @@ p.copyright{
   font-family: Bodoni MT;
   font-style: italic;
   color: white;
+}
+
+#input2{
+  display: none;
+}
+
+#button2{
+  display: none;
 }

@@ -30,21 +30,25 @@ function myBox1(){
   document.getElementById("logo2").style.display = "none";
   document.getElementById("initial").style.display = "none";
   document.getElementById("creds2").style.display = "none";
+  document.getElementById("input2").style.display = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/corporate1.jpg')";
   document.getElementById("box").style.display = "block";
   document.getElementById("black").style.display = "block";
   document.getElementById("white").style.display = "flex";
+  document.getElementById("input1").style.display = "block";
 }
 
 //shows ecard2
 function myBox2(){
   document.getElementById("black").style.display = "none";
   document.getElementById("white").style.display = "none";
+  document.getElementById("input1").style.display = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/corporate2.jpg')";
   document.getElementById("box").style.display = "block";
   document.getElementById("logo2").style.display = "flex";
   document.getElementById("initial").style.display = "block";
   document.getElementById("creds2").style.display = "block";
+  document.getElementById("input2").style.display = "block";
 }
 
 //hides and shows cards depending on themes
@@ -74,8 +78,9 @@ function corporate(){
   document.getElementById("sketch5").style.display = "block";
   document.getElementById("sketch6").style.display = "block";
 }
-//change input value of Cards
-function ChangeMe(){
+
+//change input value of ecard1
+function ChangeMe1(){
   var title = document.getElementById("box1").value;
 
   if(document.getElementById("box1").value != 0){
@@ -117,5 +122,45 @@ function ChangeMe(){
   if(document.getElementById("box7").value != 0){
     var box7 = document.getElementById("address1");
     box7.innerHTML = address;
+  }
+}
+
+//change input value of ecard2
+function ChangeMe2(){
+  var name = document.getElementById("box8").value;
+
+  if(document.getElementById("box8").value != 0){
+    var box8 = document.getElementById("name");
+    box8.innerHTML = name;
+  }
+  var job = document.getElementById("box9").value;
+
+  if(document.getElementById("box9").value != 0){
+    var box9 = document.getElementById("job2");
+    box9.innerHTML = job;
+  }
+  var phone = document.getElementById("box10").value;
+
+  if(document.getElementById("box10").value != 0){
+    var box10 = document.getElementById("phoneno3");
+    box10.innerHTML = phone;
+  }
+  var email = document.getElementById("box11").value;
+
+  if(document.getElementById("box11").value != 0){
+    var box5 = document.getElementById("email2");
+    box11.innerHTML = email;
+  }
+  var url = document.getElementById("box12").value;
+
+  if(document.getElementById("box12").value != 0){
+    var box12 = document.getElementById("url2");
+    box12.innerHTML = url;
+  }
+  var address = document.getElementById("box13").value;
+
+  if(document.getElementById("box13").value != 0){
+    var box13 = document.getElementById("address2");
+    box13.innerHTML = address;
   }
 }
