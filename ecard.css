@@ -532,3 +532,62 @@ p.copyright{
 #button5{
   display: none;
 }
+
+/* ecard6 */
+
+/* #ecard6{
+  display: none;
+}
+
+#back1{
+  display: inline-block;
+  width: 88.3%;
+  height: 92.4%;
+  margin-left: 5.7%;
+  margin-top: 4.9%;
+  border: 1px solid red;
+}
+
+#groom{
+  display: flex;
+  justify-content: center;
+  margin-top: 110px;
+  font-family: Brush Script MT;
+  font-size: 50px;
+  border: 1px solid red;
+}
+
+#bride{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  font-family: Brush Script MT;
+  font-size: 50px;
+  border: 1px solid red;
+}
+
+#and{
+  display: flex;
+  justify-content: center;
+  font-family: Forte;
+  font-size: 20px;
+  border: 1px solid red;
+}
+
+#p1{
+  margin-left: 55px;
+  margin-right: 55px;
+  word-break: break-word;
+  font-size: 25px;
+  text-align: center;
+  font-family: Antique Roman Solid AT;
+  border: 1px solid red;
+}
+
+#input6{
+  display: none;
+}
+
+#button6{
+  display: none;
+} */

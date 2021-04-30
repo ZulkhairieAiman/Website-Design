@@ -92,6 +92,31 @@ function myBox5(){
   document.getElementById("button5").style.display = "block";
 }
 
+// function myBox6(){
+//   document.getElementById("black").style.display = "none";
+//   document.getElementById("white").style.display = "none";
+//   document.getElementById("input1").style.display = "none";
+//   document.getElementById("box").style.display = "none";
+//   document.getElementById("logo2").style.display = "none";
+//   document.getElementById("initial").style.display = "none";
+//   document.getElementById("creds2").style.display = "none";
+//   document.getElementById("input2").style.display = "none";
+//   document.getElementById("button1").style.display = "none";
+//   document.getElementById("button2").style.display = "none";
+//   document.getElementById("ecard5").style.display = "none";
+//   document.getElementById("input5").style.display = "none";
+//   document.getElementById("button5").style.display = "none";
+//   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/formal2.jpg')";
+//   document.getElementById("box").style.display = "block";
+//   document.getElementById("box").style.position = "absolute";
+//   document.getElementById("box").style.width = "450px";
+//   document.getElementById("box").style.height = "600px";
+//   document.getElementById("box").style.left = "33.5%";
+//   document.getElementById("ecard6").style.display = "block";
+//   document.getElementById("input6").style.display = "block";
+//   document.getElementById("button6").style.display = "block";
+// }
+
 //hides and shows cards depending on themes
 function formal(){
   document.getElementById("sketch1").style.display = "block";
@@ -189,7 +214,7 @@ function ChangeMe2(){
   var email = document.getElementById("box11").value;
 
   if(document.getElementById("box11").value != 0){
-    var box5 = document.getElementById("email2");
+    var box11 = document.getElementById("email2");
     box11.innerHTML = email;
   }
   var url = document.getElementById("box12").value;
@@ -204,4 +229,56 @@ function ChangeMe2(){
     var box13 = document.getElementById("address2");
     box13.innerHTML = address;
   }
+}
+
+//change input value of ecard5
+  function ChangeMe5(){
+    var eventname = document.getElementById("box14").value;
+
+    if(document.getElementById("box8").value != 0){
+      var box14 = document.getElementById("event");
+      box14.innerHTML = eventname;
+    }
+    var name = document.getElementById("box15").value;
+
+    if(document.getElementById("box15").value != 0){
+      var box15 = document.getElementById("host");
+      box15.innerHTML = name;
+    }
+    var date = document.getElementById("box16").value;
+
+    if(document.getElementById("box16").value != 0){
+      var box16 = document.getElementById("date");
+      box16.innerHTML = date;
+    }
+    var time = document.getElementById("box17").value;
+
+    if(document.getElementById("box17").value != 0){
+      var box17 = document.getElementById("time");
+      box17.innerHTML = time;
+    }
+    var location = document.getElementById("box18").value;
+
+    if(document.getElementById("box18").value != 0){
+      var box18 = document.getElementById("location");
+      box18.innerHTML = location;
+    }
+    var address = document.getElementById("box19").value;
+
+    if(document.getElementById("box19").value != 0){
+      var box19 = document.getElementById("address3");
+      box19.innerHTML = address;
+    }
+    var country = document.getElementById("box20").value;
+
+    if(document.getElementById("box20").value != 0){
+      var box20 = document.getElementById("country");
+      box20.innerHTML = country;
+    }
+    var phone = document.getElementById("box21").value;
+
+    if(document.getElementById("box21").value != 0){
+      var box21 = document.getElementById("phone4");
+      box21.innerHTML = phone;
+    }
 }
