@@ -223,7 +223,6 @@ p.copyright{
 @media screen and (max-width: 600px) {
   body{
     /* hide horizontal scrollbar that exceed the max width above */
-    position: fixed;
     overflow-x: hidden;
   }
   .nav-links{
