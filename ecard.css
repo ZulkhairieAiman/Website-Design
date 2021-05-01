@@ -286,11 +286,6 @@ p.copyright{
   top: -590px;
 }
 
-#themes{
-  display: flex;
-
-}
-
 .list{
   display: flex;
   list-style: none;
