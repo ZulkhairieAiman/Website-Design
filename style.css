@@ -177,7 +177,7 @@ div p{
   background-size: 100%;
 }
 
-footer.footer{
+footer{
   position: fixed;
   height: 35px;
   width: 100%;
@@ -185,7 +185,7 @@ footer.footer{
   bottom: 0;
 }
 
-p.copyright{
+p#copyright{
   positon: absolute;
   line-height: 35px;
   width: 100%;
