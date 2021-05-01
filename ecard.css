@@ -189,6 +189,13 @@ opacity: 0;
   display: flex;
   justify-content: center;
   cursor: pointer;
+  /* padding: 10px; */
+  margin: 10px;
+  border: 1px solid grey;
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+  display: flex;
+  justify-content: center;
 }
 
 textarea{
@@ -260,19 +267,21 @@ p.copyright{
   overflow-x: hidden;
 }
 
-#cards img{
-  /* padding: 10px; */
-  margin: 10px;
-  border: 1px solid grey;
-  border-bottom: 5px solid black;
-  border-top: 5px solid black;
-  display: flex;
-  justify-content: center;
-}
-
 ::-webkit-scrollbar {
     width: 0;  /* Remove scrollbar space */
     background: transparent;  /* make scrollbar invisible */
+}
+
+#favourite{
+  position: absolute;
+  width: 30px;
+  margin-top: -45px;
+  margin-left: 93%;
+}
+
+#favourite:hover{
+  background-image: url("Media/Icons/favourite.png");
+  background-size: 30px;
 }
 
 #ecard{
