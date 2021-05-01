@@ -278,7 +278,7 @@ p.copyright{
 #ecard{
   display: block;
   width: 300px;
-  height: 500px;
+  height: 550px;
   background: white;
   border: 2px solid black;
   position: relative;
@@ -535,7 +535,7 @@ p.copyright{
 
 /* ecard6 */
 
-/* #ecard6{
+#ecard6{
   display: none;
 }
 
@@ -545,7 +545,7 @@ p.copyright{
   height: 92.4%;
   margin-left: 5.7%;
   margin-top: 4.9%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 #groom{
@@ -554,7 +554,7 @@ p.copyright{
   margin-top: 110px;
   font-family: Brush Script MT;
   font-size: 50px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 #bride{
@@ -563,7 +563,7 @@ p.copyright{
   justify-content: center;
   font-family: Brush Script MT;
   font-size: 50px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 #and{
@@ -571,7 +571,7 @@ p.copyright{
   justify-content: center;
   font-family: Forte;
   font-size: 20px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 #p1{
@@ -581,7 +581,7 @@ p.copyright{
   font-size: 25px;
   text-align: center;
   font-family: Antique Roman Solid AT;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 #input6{
@@ -590,4 +590,4 @@ p.copyright{
 
 #button6{
   display: none;
-} */
+}

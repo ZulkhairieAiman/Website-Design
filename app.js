@@ -35,6 +35,9 @@ function myBox1(){
   document.getElementById("input5").style.display = "none";
   document.getElementById("button2").style.display = "none";
   document.getElementById("button5").style.display = "none";
+  document.getElementById("ecard6").style.display = "none";
+  document.getElementById("input6").style.display = "none";
+  document.getElementById("button6").style.display = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/corporate1.jpg')";
   document.getElementById("box").style.display = "block";
   document.getElementById("box").style.position = "fixed";
@@ -56,6 +59,9 @@ function myBox2(){
   document.getElementById("input5").style.display = "none";
   document.getElementById("button1").style.display = "none";
   document.getElementById("button5").style.display = "none";
+  document.getElementById("ecard6").style.display = "none";
+  document.getElementById("input6").style.display = "none";
+  document.getElementById("button6").style.display = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/corporate2.jpg')";
   document.getElementById("box").style.display = "block";
   document.getElementById("box").style.position = "fixed";
@@ -81,6 +87,9 @@ function myBox5(){
   document.getElementById("input2").style.display = "none";
   document.getElementById("button1").style.display = "none";
   document.getElementById("button2").style.display = "none";
+  document.getElementById("ecard6").style.display = "none";
+  document.getElementById("input6").style.display = "none";
+  document.getElementById("button6").style.display = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/formal1.jpg')";
   document.getElementById("box").style.display = "block";
   document.getElementById("box").style.position = "absolute";
@@ -92,30 +101,31 @@ function myBox5(){
   document.getElementById("button5").style.display = "block";
 }
 
-// function myBox6(){
-//   document.getElementById("black").style.display = "none";
-//   document.getElementById("white").style.display = "none";
-//   document.getElementById("input1").style.display = "none";
-//   document.getElementById("box").style.display = "none";
-//   document.getElementById("logo2").style.display = "none";
-//   document.getElementById("initial").style.display = "none";
-//   document.getElementById("creds2").style.display = "none";
-//   document.getElementById("input2").style.display = "none";
-//   document.getElementById("button1").style.display = "none";
-//   document.getElementById("button2").style.display = "none";
-//   document.getElementById("ecard5").style.display = "none";
-//   document.getElementById("input5").style.display = "none";
-//   document.getElementById("button5").style.display = "none";
-//   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/formal2.jpg')";
-//   document.getElementById("box").style.display = "block";
-//   document.getElementById("box").style.position = "absolute";
-//   document.getElementById("box").style.width = "450px";
-//   document.getElementById("box").style.height = "600px";
-//   document.getElementById("box").style.left = "33.5%";
-//   document.getElementById("ecard6").style.display = "block";
-//   document.getElementById("input6").style.display = "block";
-//   document.getElementById("button6").style.display = "block";
-// }
+//shows ecard6
+function myBox6(){
+  document.getElementById("black").style.display = "none";
+  document.getElementById("white").style.display = "none";
+  document.getElementById("input1").style.display = "none";
+  document.getElementById("box").style.display = "none";
+  document.getElementById("logo2").style.display = "none";
+  document.getElementById("initial").style.display = "none";
+  document.getElementById("creds2").style.display = "none";
+  document.getElementById("input2").style.display = "none";
+  document.getElementById("button1").style.display = "none";
+  document.getElementById("button2").style.display = "none";
+  document.getElementById("ecard5").style.display = "none";
+  document.getElementById("input5").style.display = "none";
+  document.getElementById("button5").style.display = "none";
+  document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/formal2.jpg')";
+  document.getElementById("box").style.display = "block";
+  document.getElementById("box").style.position = "absolute";
+  document.getElementById("box").style.width = "450px";
+  document.getElementById("box").style.height = "600px";
+  document.getElementById("box").style.left = "33.5%";
+  document.getElementById("ecard6").style.display = "block";
+  document.getElementById("input6").style.display = "block";
+  document.getElementById("button6").style.display = "block";
+}
 
 //hides and shows cards depending on themes
 function formal(){
@@ -235,7 +245,7 @@ function ChangeMe2(){
   function ChangeMe5(){
     var eventname = document.getElementById("box14").value;
 
-    if(document.getElementById("box8").value != 0){
+    if(document.getElementById("box14").value != 0){
       var box14 = document.getElementById("event");
       box14.innerHTML = eventname;
     }
@@ -251,34 +261,62 @@ function ChangeMe2(){
       var box16 = document.getElementById("date");
       box16.innerHTML = date;
     }
-    var time = document.getElementById("box17").value;
+    var time1 = document.getElementById("box17").value;
 
     if(document.getElementById("box17").value != 0){
-      var box17 = document.getElementById("time");
-      box17.innerHTML = time;
+      var box17 = document.getElementById("timestart");
+      box17.innerHTML = time1;
     }
-    var location = document.getElementById("box18").value;
+    var time2 = document.getElementById("box18").value;
 
     if(document.getElementById("box18").value != 0){
-      var box18 = document.getElementById("location");
-      box18.innerHTML = location;
+      var box18 = document.getElementById("timeend");
+      box18.innerHTML = time2;
     }
-    var address = document.getElementById("box19").value;
+    var location = document.getElementById("box19").value;
 
     if(document.getElementById("box19").value != 0){
-      var box19 = document.getElementById("address3");
-      box19.innerHTML = address;
+      var box19 = document.getElementById("location");
+      box19.innerHTML = location;
     }
-    var country = document.getElementById("box20").value;
+    var address = document.getElementById("box20").value;
 
     if(document.getElementById("box20").value != 0){
-      var box20 = document.getElementById("country");
-      box20.innerHTML = country;
+      var box20 = document.getElementById("address3");
+      box20.innerHTML = address;
     }
-    var phone = document.getElementById("box21").value;
+    var country = document.getElementById("box21").value;
 
     if(document.getElementById("box21").value != 0){
-      var box21 = document.getElementById("phone4");
-      box21.innerHTML = phone;
+      var box21 = document.getElementById("country");
+      box21.innerHTML = country;
+    }
+    var phone = document.getElementById("box22").value;
+
+    if(document.getElementById("box22").value != 0){
+      var box22 = document.getElementById("phoneno4");
+      box22.innerHTML = phone;
+    }
+}
+
+//change input value of ecard6
+  function ChangeMe6(){
+    var bride = document.getElementById("box23").value;
+
+    if(document.getElementById("box23").value != 0){
+      var box23 = document.getElementById("bride");
+      box23.innerHTML = bride;
+    }
+    var groom = document.getElementById("box24").value;
+
+    if(document.getElementById("box24").value != 0){
+      var box24 = document.getElementById("groom");
+      box24.innerHTML = groom;
+    }
+    var desc = document.getElementById("box25").value;
+
+    if(document.getElementById("box25").value != 0){
+      var box25 = document.getElementById("p1");
+      box25.innerHTML = desc;
     }
 }
