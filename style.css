@@ -249,26 +249,8 @@ p.copyright{
     display: block;
   }
 
-  /* #cherrybackground{
-    display: inline-block;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-image: url("Media/Images/leaf.jpg");
-    background-size: cover;
-    height: 92%;
-    max-width: 100%;
-    opacity: 0.3;
-    overflow: hidden;
-    z-index: -1;
-  } */
+  #backgroundpic{
 
-  #cherrybackground{
-    background-image: url("Media/Images/leaf.jpg")
-    background-positon: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: black;
-    background-size: cover;
   }
 
   .corporate, .formal, .informal{
@@ -316,15 +298,18 @@ opacity: 0;
   transform: rotate(45deg) translate(-5px,-6px);
 }
 
-#cherrybackground{
+#backgroundpic{
   display: block;
   position: absolute;
   background-repeat: no-repeat;
   background-image: url("Media/Images/leaf.jpg");
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: black;
   height: 92%;
   width: 100%;
-  opacity: 0.3;
+  /* opacity: 0.3; */
   overflow: hidden;
   z-index: -1;
 }
