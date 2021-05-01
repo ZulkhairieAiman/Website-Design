@@ -474,6 +474,103 @@ p.copyright{
   display: none;
 }
 
+/* ecard3 */
+
+#back2{
+  display: inline-block;
+  width: 90.8%;
+  height: 92%;
+  margin-left: 4.5%;
+  margin-top: 3%;
+  /* border: 1px solid red; */
+}
+
+#dear{
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: Arial;
+  font-size: 35px;
+  /* border: 1px solid red; */
+}
+
+#p2{
+  margin-top: 45px;
+  margin-left: 70px;
+  margin-right: 70px;
+  text-align: center;
+  font-size: 22px;
+}
+
+#sincerely{
+  margin-top: 45px;
+  margin-left: 70px;
+  margin-right: 70px;
+  text-align: center;
+  font-size: 22px;
+}
+
+#sender{
+  text-align: center;
+  font-size: 22px;
+}
+
+#input3{
+  display: none;
+}
+
+#button3{
+  display: none;
+}
+/* ecard4 */
+
+#back3{
+  display: inline-block;
+  width: 87%;
+  height: 412px;;
+  margin-left: 6.5%;
+  margin-top: 3.2%;
+}
+
+#dear2{
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: Arial;
+  font-size: 35px;
+}
+
+#p3{
+  margin-top: 35px;
+  margin-left: 77px;
+  margin-right: 77px;
+  text-align: center;
+  font-size: 22px;
+}
+
+#sincerely2{
+  margin-top: 45px;
+  margin-left: 70px;
+  margin-right: 70px;
+  text-align: center;
+  font-size: 22px;
+}
+
+#sender2{
+  text-align: center;
+  font-size: 22px;
+}
+
+#input4{
+  display: none;
+}
+
+#button4{
+  display: none;
+}
+
 /* ecard5 */
 
 #ecard5{

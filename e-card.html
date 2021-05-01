@@ -51,8 +51,8 @@
       <ul>
         <li><img class="pics" id= "sketch1" src="Media/E-Cards/sketch1.jpg" width="300px" height="200px" onclick="myBox1()"></li>
         <li><img class="pics" id= "sketch2" src="Media/E-Cards/sketch2.jpg" width="300px" height="200px" onclick="myBox2()"></li>
-        <li><img class="pics" id= "sketch3" src="Media/E-Cards/sketch3.jpg" width="300px" height="200px"></li>
-        <li><img class="pics" id= "sketch4" src="Media/E-Cards/sketch4.jpg" width="300px" height="200px"></li>
+        <li><img class="pics" id= "sketch3" src="Media/E-Cards/sketch3.jpg" width="300px" height="200px" onclick="myBox3()"></li>
+        <li><img class="pics" id= "sketch4" src="Media/E-Cards/sketch4.jpg" width="300px" height="200px" onclick="myBox4()"></li>
         <li><img class="pics" id= "sketch5" src="Media/E-Cards/sketch5.jpg" width="300px" height="450px" onclick="myBox5()"></li>
         <li><img class="pics" id= "sketch6" src="Media/E-Cards/sketch6.jpg" width="300px" height="450px" onclick="myBox6()"></li>
     </ul>
@@ -102,6 +102,46 @@
         <li id="url2">Website URL</li>
       </ul>
     </div>
+
+    <!-- ecard3 -->
+    <div id="ecard3">
+      <div id="back2">
+  <div id="dear">
+    <span>Dear&nbsp;</span>
+    <span id="receiver">Name</span>
+    <span>,</span>
+    </div>
+    <div id="p2">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempor eros vel orci dictum, sed pellentesque orci feugiat. In a luctus nisi. Ut et mauris suscipit, tincidunt dolor eget, tempus nibh. Pellentesque finibus mollis velit at rutrum.
+      </div>
+      <div id="sincerely">
+        Sincerely,
+        </div>
+        <div id="sender">
+          Name
+          </div>
+  </div>
+    </div>
+
+    <!-- ecard4 -->
+    <div id="ecard4">
+    <div id="back3">
+      <div id="dear">
+        <span>Dear&nbsp;</span>
+        <span id="receiver2">Name</span>
+        <span>,</span>
+        </div>
+    <div id="p3">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempor eros vel orci dictum, sed pellentesque orci feugiat. In a luctus nisi. Ut et mauris suscipit, tincidunt dolor eget, tempus nibh. Pellentesque finibus mollis velit at rutrum.
+      </div>
+      <div id="sincerely2">
+        Sincerely,
+        </div>
+        <div id="sender2">
+          Name
+          </div>
+        </div>
+      </div>
 
     <!-- ecard5 -->
     <div id=ecard5>
@@ -220,34 +260,62 @@
       </ul>
       <button id ="button2"onclick="ChangeMe2()">Submit!</button>
 
+      <!-- input ecard3 -->
+      <ul id = "input3">
+        <li class="save"><label>Receiver:</label>
+          <input type="text" placeholder="Sender Name" id="box14"/>
+        </li>
+        <li class="save"><label>Description</label>
+          <textarea id="box15"></textarea>
+        </li>
+        <li class="save"><label>Sender</label>
+          <input type="text" placeholder="Sender Name" id="box16"/>
+        </li>
+      </ul>
+      <button id ="button3"onclick="ChangeMe3()">Submit!</button>
+
+      <!-- input ecard4 -->
+      <ul id = "input4">
+        <li class="save"><label>Receiver:</label>
+          <input type="text" placeholder="Sender Name" id="box17"/>
+        </li>
+        <li class="save"><label>Description</label>
+          <textarea id="box18"></textarea>
+        </li>
+        <li class="save"><label>Sender</label>
+          <input type="text" placeholder="Sender Name" id="box19"/>
+        </li>
+      </ul>
+      <button id ="button4"onclick="ChangeMe4()">Submit!</button>
+
       <!-- input ecard5 -->
       <ul id = "input5">
         <li class="save"><label>Event Name:</label>
-          <input type="text" placeholder="Event Name" id="box14"/>
+          <input type="text" placeholder="Event Name" id="box20"/>
         </li>
         <li class="save"><label>Host Name:</label>
-          <input type="text" placeholder="Host Name" id="box15"/>
+          <input type="text" placeholder="Host Name" id="box21"/>
         </li>
         <li class="save"><label>Date:</label>
-          <input type="date" id="box16"/>
+          <input type="date" id="box22"/>
         </li>
         <li class="save"><label>Time Start:</label>
-          <input type="time"id="box17"/>
+          <input type="time"id="box23"/>
         </li>
         <li class="save"><label>Time End:</label>
-          <input type="time"id="box18"/>
+          <input type="time"id="box24"/>
         </li>
         <li class="save"><label>Location:</label>
-          <input type="text" placeholder="Cresant Hotel" id="box19"/>
+          <input type="text" placeholder="Cresant Hotel" id="box25"/>
         </li>
         <li class="save"><label>Address:</label>
-          <textarea id="box20"></textarea>
+          <textarea id="box26"></textarea>
         </li>
         <li class="save"><label>Country</label>
-          <input type="text" placeholder="Dallas, Texas" id="box21"/>
+          <input type="text" placeholder="Dallas, Texas" id="box27"/>
         </li>
         <li class="save"><label>Phone No.</label>
-          <input type="tel" placeholder="+111 111 1111" id="box22"/>
+          <input type="tel" placeholder="+111 111 1111" id="box28"/>
         </li>
       </ul>
       <button id ="button5"onclick="ChangeMe5()">Submit!</button>
@@ -255,13 +323,13 @@
       <!-- input ecard6 -->
       <ul id = "input6">
         <li class="save"><label>Groom Name:</label>
-          <input type="text" placeholder="Groom Name" id="box23"/>
+          <input type="text" placeholder="Groom Name" id="box29"/>
         </li>
         <li class="save"><label>Bride Name:</label>
-          <input type="text" placeholder="Bride Name" id="box24"/>
+          <input type="text" placeholder="Bride Name" id="box30"/>
         </li>
         <li class="save"><label>Description of event</label>
-          <textarea id="box25"></textarea>
+          <textarea id="box31"></textarea>
         </li>
       </ul>
       <button id ="button6"onclick="ChangeMe6()">Submit!</button>
