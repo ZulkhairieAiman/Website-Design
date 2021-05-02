@@ -234,7 +234,8 @@ p.copyright{
   justify-content: space-around;
   align-content: center;
 }
-.text{
+
+.options{
   position: relative;
   top: 0px;
   right: 8px;
@@ -250,8 +251,48 @@ p.copyright{
   cursor: pointer;
 }
 
+.options:hover{
+  background-color: grey;
+}
+
+.text{
+  position: relative;
+  top: 0px;
+  right: 8px;
+  background: white;
+  width: 300px;
+  height: 20px;
+  border: 2px solid black;
+  border-spacing: inherit;
+  border-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
 .text:hover{
   background-color: grey;
+}
+
+#option1{
+  display: none;
+  width: 300px;
+  height: 540px;
+  position: relative;
+  top: 0px;
+  right: 8px;
+  background: white;
+  border: 2px solid black;
+  border-spacing: inherit;
+}
+
+#items{
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 20%;
+  list-style-type: none;
+  border: 2px solid black;
 }
 
 #cards{
@@ -362,7 +403,7 @@ p.copyright{
   border: 2px solid black;
   position: relative;
   float: right;
-  top: -590px;
+  top: -600px;
 }
 
 .list{

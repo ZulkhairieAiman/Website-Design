@@ -1,4 +1,14 @@
 
+function create(){
+  document.getElementById("option2").style.display = "none";
+  document.getElementById("option1").style.display = "block";
+}
+
+function predefined(){
+  document.getElementById("option1").style.display = "none";
+  document.getElementById("option2").style.display = "block";
+}
+
 //favourite functions sketch1
 var fav1;
 fav1 = 0;
@@ -114,9 +124,12 @@ function myBox1(){
   document.getElementById("ecard4").style.display = "none";
   document.getElementById("input4").style.display = "none";
   document.getElementById("button4").style.display = "none";
+  document.getElementById("boxtext").style.display = "none";
+  document.getElementById("box").style.border = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/corporate1.jpg')";
   document.getElementById("box").style.display = "block";
   document.getElementById("box").style.position = "fixed";
+  document.getElementById("box").style.opacity = "1.0";
   document.getElementById("box").style.width = "600px";
   document.getElementById("box").style.height = "450px";
   document.getElementById("box").style.left = "27.5%";
@@ -144,9 +157,12 @@ function myBox2(){
   document.getElementById("ecard4").style.display = "none";
   document.getElementById("input4").style.display = "none";
   document.getElementById("button4").style.display = "none";
+  document.getElementById("boxtext").style.display = "none";
+  document.getElementById("box").style.border = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/corporate2.jpg')";
   document.getElementById("box").style.display = "block";
   document.getElementById("box").style.position = "fixed";
+  document.getElementById("box").style.opacity = "1.0";
   document.getElementById("box").style.width = "600px";
   document.getElementById("box").style.height = "450px";
   document.getElementById("box").style.left = "27.5%";
@@ -178,9 +194,12 @@ function myBox3(){
   document.getElementById("ecard4").style.display = "none";
   document.getElementById("input4").style.display = "none";
   document.getElementById("button4").style.display = "none";
+  document.getElementById("boxtext").style.display = "none";
+  document.getElementById("box").style.border = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/informal1back.jpg')";
   document.getElementById("box").style.display = "block";
   document.getElementById("box").style.position = "fixed";
+  document.getElementById("box").style.opacity = "1.0";
   document.getElementById("box").style.width = "600px";
   document.getElementById("box").style.height = "450px";
   document.getElementById("box").style.left = "27.5%";
@@ -210,9 +229,12 @@ function myBox4(){
   document.getElementById("ecard3").style.display = "none";
   document.getElementById("input3").style.display = "none";
   document.getElementById("button3").style.display = "none";
+  document.getElementById("boxtext").style.display = "none";
+  document.getElementById("box").style.border = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/informal2back.jpg')";
   document.getElementById("box").style.display = "block";
   document.getElementById("box").style.position = "fixed";
+  document.getElementById("box").style.opacity = "1.0";
   document.getElementById("box").style.width = "600px";
   document.getElementById("box").style.height = "450px";
   document.getElementById("box").style.left = "27.5%";
@@ -242,9 +264,12 @@ function myBox5(){
   document.getElementById("ecard4").style.display = "none";
   document.getElementById("input4").style.display = "none";
   document.getElementById("button4").style.display = "none";
+  document.getElementById("boxtext").style.display = "none";
+  document.getElementById("box").style.border = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/formal1.jpg')";
   document.getElementById("box").style.display = "block";
   document.getElementById("box").style.position = "absolute";
+  document.getElementById("box").style.opacity = "1.0";
   document.getElementById("box").style.width = "450px";
   document.getElementById("box").style.height = "600px";
   document.getElementById("box").style.left = "33.5%";
@@ -274,9 +299,12 @@ function myBox6(){
   document.getElementById("ecard4").style.display = "none";
   document.getElementById("input4").style.display = "none";
   document.getElementById("button4").style.display = "none";
+  document.getElementById("boxtext").style.display = "none";
+  document.getElementById("box").style.border = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/formal2.jpg')";
   document.getElementById("box").style.display = "block";
   document.getElementById("box").style.position = "absolute";
+  document.getElementById("box").style.opacity = "1.0";
   document.getElementById("box").style.width = "450px";
   document.getElementById("box").style.height = "600px";
   document.getElementById("box").style.left = "33.5%";
