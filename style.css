@@ -262,17 +262,10 @@ p#copyright{
     grid-gap: 20px;
   }
 
-  .box1,.box2{
-    margin-right: 320px;
+  .box1, .box2, .box3{
+    margin-right: 23%;
     height: 800px;
     width: 300px;
-  }
-
-  .box3{
-    margin-right: 320px;
-    height: 800px;
-    width: 300px;
-    bottom: 0px;
   }
 }
 
