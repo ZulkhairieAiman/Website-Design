@@ -147,47 +147,18 @@ div p{
   border-bottom: : solid 1px transparent;
   background-color: #36393E;
 }
-.corporate{
-  position: absolute;
-  list-style: none;
-  bottom: 0px;
-  line-height: 400px;
-  font-family: 'Oswald', sans-serif;
-  font-size: 25px;
-  font-weight: bold;
-  margin-left: 45px;
-}
-.formal{
-  position: absolute;
-  list-style: none;
-  bottom: 0px;
-  line-height: 400px;
-  font-family: 'Oswald', sans-serif;
-  font-size: 25px;
-  font-weight: bold;
-  margin-left: 430px;
-}
-.informal{
-  position: absolute;
-  list-style: none;
-  bottom: 0px;
-  line-height: 400px;
-  font-family: 'Oswald', sans-serif;
-  font-size: 25px;
-  font-weight: bold;
-  margin-left: 785px;
-}
 
 .imagebox img{
   width: 250px;
   height: 350px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .box1,.box2,.box3{
   border: solid 2px;
   width: 300px;
   height: 400px;
+  font-family: 'Oswald', sans-serif;
   text-align: center;
 }
 
