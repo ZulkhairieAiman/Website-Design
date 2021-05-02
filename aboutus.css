@@ -246,6 +246,7 @@ p#copyright{
   }
 
   .nav-links li{
+    text-align: center;
     opacity: 0;
   }
 
