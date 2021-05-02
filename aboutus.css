@@ -314,4 +314,19 @@ article{
   padding: 20px;
   color: white;
   text-align: center;
+
+}
+article h2{
+  padding-top: 30px;
+  padding-bottom: 40px;
+  font-size: 2em;
+  font-weight: normal;
+}
+
+article p{
+  font-size: 20px;
+}
+
+.padbelow{
+  padding-bottom: 30px;
 }
