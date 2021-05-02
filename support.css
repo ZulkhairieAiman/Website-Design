@@ -94,21 +94,6 @@ div p{
   text-align: center;
 }
 
-/* #backgroundpic{
-  display: block;
-  position: absolute;
-  background-repeat: no-repeat;
-  background-image: url("Media/Images/leaf.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-color: black;
-  height: 92%;
-  width: 100%;
-  overflow: hidden;
-  z-index: -1;
-} */
-
 #title{
   color: white;
   text-decoration: none;
@@ -218,14 +203,9 @@ p#copyright{
   body{
     /* hide horizontal scrollbar that exceed the max width above */
     overflow-x: hidden;
-  }
-
-  #backgroundpic{
     background-image: none;
     background-color: #121212;
   }
-
-
 
   .nav-links .hamburgerbutton{
     position: fixed;
