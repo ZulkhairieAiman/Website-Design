@@ -250,6 +250,10 @@ p.copyright{
   cursor: pointer;
 }
 
+.text:hover{
+  background-color: grey;
+}
+
 #cards{
   position: relative;
   top: 0px;
