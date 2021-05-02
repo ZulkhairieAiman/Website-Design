@@ -24,6 +24,101 @@ const navSlide = () => {
 
 navSlide();
 
+//favourite functions sketch1
+var fav1;
+fav1 = 0;
+function favMe1() {
+  if(fav1 == 0){
+    document.getElementById("favourite1").style.backgroundImage = "url('Media/Icons/favourite.png')";
+    document.getElementById("favourite1").style.backgroundSize = "30px";
+    fav1 = 1;
+  }
+  else if(fav1 == 1){
+    document.getElementById("favourite1").style.backgroundImage = "none";
+    document.getElementById("favourite1").style.backgroundSize = "30px";
+    fav1 = 0;
+  }
+}
+
+//favourite functions sketch2
+var fav2;
+fav2 = 0;
+function favMe2() {
+  if(fav2 == 0){
+    document.getElementById("favourite2").style.backgroundImage = "url('Media/Icons/favourite.png')";
+    document.getElementById("favourite2").style.backgroundSize = "30px";
+    fav2 = 1;
+  }
+  else if(fav2 == 1){
+    document.getElementById("favourite2").style.backgroundImage = "none";
+    document.getElementById("favourite2").style.backgroundSize = "30px";
+    fav2 = 0;
+  }
+}
+
+//favourite functions sketch3
+var fav3;
+fav3 = 0;
+function favMe3() {
+  if(fav3 == 0){
+    document.getElementById("favourite3").style.backgroundImage = "url('Media/Icons/favourite.png')";
+    document.getElementById("favourite3").style.backgroundSize = "30px";
+    fav3 = 1;
+  }
+  else if(fav3 == 1){
+    document.getElementById("favourite3").style.backgroundImage = "none";
+    document.getElementById("favourite3").style.backgroundSize = "30px";
+    fav3 = 0;
+  }
+}
+
+//favourite functions sketch4
+var fav4;
+fav4 = 0;
+function favMe4() {
+  if(fav4 == 0){
+    document.getElementById("favourite4").style.backgroundImage = "url('Media/Icons/favourite.png')";
+    document.getElementById("favourite4").style.backgroundSize = "30px";
+    fav4 = 1;
+  }
+  else if(fav4 == 1){
+    document.getElementById("favourite1").style.backgroundImage = "none";
+    document.getElementById("favourite1").style.backgroundSize = "30px";
+    fav4 = 0;
+  }
+}
+
+//favourite functions sketch5
+var fav5;
+fav5 = 0;
+function favMe5() {
+  if(fav5 == 0){
+    document.getElementById("favourite1").style.backgroundImage = "url('Media/Icons/favourite.png')";
+    document.getElementById("favourite1").style.backgroundSize = "30px";
+    fav5 = 1;
+  }
+  else if(fav5 == 1){
+    document.getElementById("favourite1").style.backgroundImage = "none";
+    document.getElementById("favourite1").style.backgroundSize = "30px";
+    fav5 = 0;
+  }
+}
+
+//favourite functions sketch6
+var fav6;
+fav6 = 0;
+function favMe6() {
+  if(fav6 == 0){
+    document.getElementById("favourite1").style.backgroundImage = "url('Media/Icons/favourite.png')";
+    document.getElementById("favourite1").style.backgroundSize = "30px";
+    fav6 = 1;
+  }
+  else if(fav6 == 1){
+    document.getElementById("favourite1").style.backgroundImage = "none";
+    document.getElementById("favourite1").style.backgroundSize = "30px";
+    fav6 = 0;
+  }
+}
 
 //shows ecard1
 function myBox1(){

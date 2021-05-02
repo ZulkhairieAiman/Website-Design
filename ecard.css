@@ -272,16 +272,82 @@ p.copyright{
     background: transparent;  /* make scrollbar invisible */
 }
 
-#favourite{
+#favourite1{
   position: absolute;
   width: 30px;
   margin-top: -45px;
   margin-left: 93%;
+  /* border: 1px solid red; */
 }
 
-#favourite:hover{
-  background-image: url("Media/Icons/favourite.png");
-  background-size: 30px;
+#favourite1:hover{
+  background-image: url("Media/Icons/favourite.png")!important;
+  background-size: 30px!important;
+}
+
+#favourite2{
+  position: absolute;
+  width: 30px;
+  margin-top: -45px;
+  margin-left: 93%;
+  /* border: 1px solid red; */
+}
+
+#favourite2:hover{
+  background-image: url("Media/Icons/favourite.png")!important;
+  background-size: 30px!important;
+}
+
+#favourite3{
+  position: absolute;
+  width: 30px;
+  margin-top: -45px;
+  margin-left: 93%;
+  /* border: 1px solid red; */
+}
+
+#favourite3:hover{
+  background-image: url("Media/Icons/favourite.png")!important;
+  background-size: 30px!important;
+}
+
+#favourite4{
+  position: absolute;
+  width: 30px;
+  margin-top: -45px;
+  margin-left: 93%;
+  /* border: 1px solid red; */
+}
+
+#favourite4:hover{
+  background-image: url("Media/Icons/favourite.png")!important;
+  background-size: 30px!important;
+}
+
+#favourite5{
+  position: absolute;
+  width: 30px;
+  margin-top: -45px;
+  margin-left: 93%;
+  /* border: 1px solid red; */
+}
+
+#favourite5:hover{
+  background-image: url("Media/Icons/favourite.png")!important;
+  background-size: 30px!important;
+}
+
+#favourite6{
+  position: absolute;
+  width: 30px;
+  margin-top: -45px;
+  margin-left: 93%;
+  /* border: 1px solid red; */
+}
+
+#favourite6:hover{
+  background-image: url("Media/Icons/favourite.png")!important;
+  background-size: 30px!important;
 }
 
 #ecard{
