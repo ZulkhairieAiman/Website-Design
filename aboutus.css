@@ -13,6 +13,11 @@ html{
 
 body{
   /* Body content to dark mode color */
+  background-image: url("Media/Images/leaf.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   background-color:#121212;
 }
 
@@ -88,7 +93,7 @@ div p{
   text-align: center;
 }
 
-#backgroundpic{
+/* #backgroundpic{
   display: block;
   position: absolute;
   background-repeat: no-repeat;
@@ -99,10 +104,9 @@ div p{
   background-color: black;
   height: 92%;
   width: 100%;
-  /* opacity: 0.3; */
   overflow: hidden;
   z-index: -1;
-}
+} */
 
 #title{
   color: white;
@@ -307,6 +311,7 @@ article{
   font-family: 'Oswald', sans-serif;
   max-width: 960px;
   margin: auto;
+  padding: 20px;
   color: white;
   text-align: center;
 }
