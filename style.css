@@ -207,7 +207,7 @@ p#copyright{
 }
 
 /* responsive web design for small devices */
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 600px) {
   body{
     /* hide horizontal scrollbar that exceed the max width above */
     overflow-x: hidden;
@@ -255,19 +255,19 @@ p#copyright{
     width: 700px;
     height: 800px;
     align-items: center;
-    margin-top: 500px;
+    margin-top: 520px;
+    margin-right: 320px;
     grid-gap: 20px;
   }
 
   .box1,.box2{
-    margin-top: 0px;
-    margin-right: 150px;
+    margin-right: 320px;
     height: 800px;
     width: 300px;
   }
 
   .box3{
-    margin-right: 150px;
+    margin-right: 320px;
     height: 800px;
     width: 300px;
     bottom: 0px;
