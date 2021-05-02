@@ -174,7 +174,7 @@ footer{
 }
 
 p#copyright{
-  positon: absolute;
+  position: absolute;
   line-height: 35px;
   width: 100%;
   font-family: 'Oswald', sans-serif;

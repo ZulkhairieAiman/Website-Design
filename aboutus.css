@@ -179,7 +179,7 @@ footer{
 }
 
 p#copyright{
-  positon: absolute;
+  position: absolute;
   line-height: 35px;
   width: 100%;
   font-family: 'Oswald', sans-serif;
@@ -285,12 +285,14 @@ opacity: 0;
 }
 
 article{
+  position: relative;
   font-family: 'Oswald', sans-serif;
   max-width: 960px;
   margin: auto;
   padding: 20px;
   color: white;
   text-align: center;
+  z-index: -1;
 
 }
 article h2{
