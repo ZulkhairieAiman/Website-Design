@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   /* Body content to dark mode color */
   background-color:#121212;
