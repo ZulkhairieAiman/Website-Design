@@ -60,6 +60,7 @@ nav ul li:hover{
 .logo a{
   /* color to hide/mask hyperlink */
   color: white;
+  font-weight: bold;
   text-decoration: none;
 }
 
