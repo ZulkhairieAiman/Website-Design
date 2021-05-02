@@ -153,8 +153,8 @@ div p{
 
 .imagebox img{
   width: 250px;
-  height: 350px;
-  margin-top: 10px;
+  /* height: 350px; */
+  margin-top: 25px;
   text-align: center;
 }
 
@@ -163,6 +163,11 @@ div p{
   width: 300px;
   height: 400px;
   text-align: center;
+}
+
+.box1 img{
+  margin-top: 80px;
+  margin-bottom: 91px;
 }
 
 footer{
