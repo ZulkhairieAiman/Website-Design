@@ -1,0 +1,77 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+/* Webpage Base */
+
+*{
+  list-style: none;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  font-family: 'Oswald',sans-serif;
+  background-image: url("Media/Images/leaf.jpg");
+  background-size: cover;
+}
+
+/* Navigation Bar */
+
+nav{
+  background: #4f4794;
+  height: 80px;
+}
+
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 50px;
+  font-weight: bold;
+}
+
+label.logo a{
+  color: white;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+
+/* Homepage Content */
+#content{
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+article{
+  text-align: center;
+  font-size: 2em;
+}
+
+footer{
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: #4f4794;
+}
