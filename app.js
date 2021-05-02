@@ -356,6 +356,55 @@ function formal(){
   document.getElementById("favourite3").style.display = "none";
 }
 
+function favourite(){
+  if( fav1 == 1){
+    document.getElementById("sketch1").style.display = "block";
+    document.getElementById("favourite1").style.display = "block";
+  }else{
+    document.getElementById("sketch1").style.display = "none";
+    document.getElementById("favourite1").style.display = "none";
+  }
+
+  if( fav2 == 1){
+    document.getElementById("sketch2").style.display = "block";
+    document.getElementById("favourite2").style.display = "block";
+  }else{
+    document.getElementById("sketch2").style.display = "none";
+    document.getElementById("favourite2").style.display = "none"
+  }
+
+  if( fav3 == 1){
+    document.getElementById("sketch3").style.display = "block";
+    document.getElementById("favourite3").style.display = "block";
+  }else{
+    document.getElementById("sketch3").style.display = "none";
+    document.getElementById("favourite3").style.display = "none";
+  }
+
+  if( fav4 == 1){
+    document.getElementById("sketch4").style.display = "block";
+    document.getElementById("favourite4").style.display = "block";
+  }else{
+    document.getElementById("sketch4").style.display = "none";
+    document.getElementById("favourite4").style.display = "none";
+  }
+
+  if( fav5 == 1){
+    document.getElementById("sketch5").style.display = "block";
+    document.getElementById("favourite5").style.display = "block";
+  }else{
+    document.getElementById("sketch5").style.display = "none";
+    document.getElementById("favourite5").style.display = "none";
+  }
+
+  if( fav6 == 1){
+    document.getElementById("sketch6").style.display = "block";
+    document.getElementById("favourite6").style.display = "block";
+  }else{
+    document.getElementById("sketch6").style.display = "none";
+    document.getElementById("favourite6").style.display = "none";
+  }
+}
 //change input value of ecard1
 function ChangeMe1(){
   var title = document.getElementById("box1").value;
