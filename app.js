@@ -311,6 +311,22 @@ function myBox6(){
 }
 
 //hides and shows cards depending on themes
+
+function showall(){
+  document.getElementById("sketch1").style.display = "block";
+  document.getElementById("sketch2").style.display = "block";
+  document.getElementById("sketch3").style.display = "block";
+  document.getElementById("sketch4").style.display = "block";
+  document.getElementById("sketch5").style.display = "block";
+  document.getElementById("sketch6").style.display = "block";
+  document.getElementById("favourite1").style.display = "block";
+  document.getElementById("favourite2").style.display = "block";
+  document.getElementById("favourite3").style.display = "block";
+  document.getElementById("favourite4").style.display = "block";
+  document.getElementById("favourite5").style.display = "block";
+  document.getElementById("favourite6").style.display = "block";
+}
+
 function corporate(){
   document.getElementById("sketch1").style.display = "block";
   document.getElementById("sketch2").style.display = "block";
