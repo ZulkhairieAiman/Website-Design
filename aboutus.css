@@ -253,31 +253,6 @@ p#copyright{
     /* to make hamburger button visible on responsive mode */
     display: block;
   }
-
-  .imagebox{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 700px;
-    height: 800px;
-    align-items: center;
-    margin-top: 520px;
-    margin-right: 320px;
-    grid-gap: 20px;
-  }
-
-  .box1,.box2{
-    margin-right: 320px;
-    height: 800px;
-    width: 300px;
-  }
-
-  .box3{
-    margin-right: 320px;
-    height: 800px;
-    width: 300px;
-    bottom: 0px;
-  }
 }
 
 .nav-active{
