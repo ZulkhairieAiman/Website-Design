@@ -119,6 +119,8 @@ div p{
   position: relative;
   font-size: 30px;
   font-family: 'Oswald', sans-serif;
+  margin: auto;
+  max-width: 960px;
 }
 
 .imagebox{
