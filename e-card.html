@@ -44,20 +44,47 @@
       </div>
 
       <div id="option1">
-          <div class="text">
-            <p>E-Card Size</p>
+          <div class="text" id="noresponse">
+            <p>1. E-Card Size</p>
           </div>
           <div id="backgroundtype">
-              <span>Landscape&nbsp;</span><button onclick="landscape()">Press!</button>
-              <span>&nbsp;</span>
-              <span>Portrait&nbsp;</span><button onclick="portrait()">Press!</button>
+            <span>Portrait&nbsp;</span><button onclick="portrait()">Press!</button>
+            <span>&nbsp;</span>
+            <span>Landscape&nbsp;</span><button onclick="landscape()">Press!</button>
           </div>
           <div class="text">
-            Greetings
+            2. E-Card Layout
+          </div>
+          <div id="layoutbox">
+            <ul id="layout">
+              <li><span>Formal 1?&nbsp;</span><button onclick="formallayout1()">Press!</button>
+                  <span>Formal 2?&nbsp;</span><button onclick="formallayout2()">Press!</button></li>
+              <li><span>&nbsp;</span></li>
+              <li><span>Informal?&nbsp;</span><button onclick="informallayout()">Press!</button></li>
+            </ul>
+          </div>
+          <div class="text">
+            3. Salutations
           </div>
           <div id="itembox">
-          <ul id="items">
-            <li draggable="true"></li>
+          <ul>
+            <li class="items" draggable="true" ondrop="drop(event)" ondragstart="drag(event)"><span>Mr</span></li>
+            <li class="items" draggable="true" ondrop="drop(event)" ondragstart="drag(event)"><span>Mrs</span></li>
+            <li class="items" draggable="true" ondrop="drop(event)" ondragstart="drag(event)"><span>Miss</span></li>
+            <li class="items" draggable="true" ondrop="drop(event)" ondragstart="drag(event)"><span>Sir</span></li>
+            <li class="items" draggable="true" ondrop="drop(event)" ondragstart="drag(event)"><span>Madam</span></li>
+          </ul>
+        </div>
+        <div class="text">
+          3. Greetings
+        </div>
+          <div id="itembox">
+          <ul>
+            <li class="items" draggable="true" ondrop="drop(event)" ondragstart="drag(event)"><span>Assalamualaikum and good morning</span></li>
+            <li class="items" draggable="true" ondrop="drop(event)" ondragstart="drag(event)"><span>Good morning</span></li>
+            <li class="items" draggable="true" ondrop="drop(event)" ondragstart="drag(event)"><span>Good Afternoon</span></li>
+            <li class="items" draggable="true" ondrop="drop(event)" ondragstart="drag(event)"><span>Good Evening</span></li>
+            <li class="items" draggable="true" ondrop="drop(event)" ondragstart="drag(event)"><span>Good Day</span></li>
           </ul>
         </div>
       </div>
@@ -83,7 +110,7 @@
       <p onclick="favourite()">Favourites<p>
     </div>
 
-    <div id="cards">
+    <div class="cards">
       <ul>
         <li id= "sketch1"><img class="pics" id= "sketch1" src="Media/E-Cards/sketch1.jpg" width="300px" height="200px" onclick="myBox1()">
         <img id="favourite1" src="Media/Icons/star.png" onclick="favMe1()"></li>
@@ -155,7 +182,7 @@
       <div id="back2">
   <div id="dear">
     <span>Dear&nbsp;</span>
-    <span id="receiver">Name</span>
+    <span id="receiver" ondrop="drop(event)" ondragover="allowDrop(event)">Name</span>
     <span>,</span>
     </div>
     <div id="p2">
@@ -197,7 +224,8 @@
     </div>
     <div class="info">
       <span>to a&nbsp;</span>
-      <span id="event">formal dinner</span>
+      <span>formal&nbsp;</span>
+      <span id="event">dinner</span>
     </div>
     <div class="info">
       <span>Hosted by:</span>
@@ -310,7 +338,7 @@
       <!-- input ecard3 -->
       <ul id = "input3">
         <li class="save"><label>Receiver:</label>
-          <input type="text" placeholder="Sender Name" id="box14"/>
+          <input type="text" placeholder="Receiver Name" id="box14"/>
         </li>
         <li class="save"><label>Description</label>
           <textarea id="box15"></textarea>
@@ -324,7 +352,7 @@
       <!-- input ecard4 -->
       <ul id = "input4">
         <li class="save"><label>Receiver:</label>
-          <input type="text" placeholder="Sender Name" id="box17"/>
+          <input type="text" placeholder="Receiver Name" id="box17"/>
         </li>
         <li class="save"><label>Description</label>
           <textarea id="box18"></textarea>

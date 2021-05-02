@@ -1,4 +1,4 @@
-
+//creating own ecard
 function create(){
   document.getElementById("option2").style.display = "none";
   document.getElementById("option1").style.display = "block";
@@ -13,6 +13,7 @@ function landscape(){
   document.getElementById("box").style.display = "block";
   document.getElementById("box").style.width = "600px";
   document.getElementById("box").style.height = "450px";
+  document.getElementById("box").style.left = "27.5%";
   document.getElementById("box").style.opacity = "1.0";
   document.getElementById("box").style.border = "none";
   document.getElementById("box").style.backgroundColor = "white";
@@ -30,6 +31,54 @@ function portrait(){
   document.getElementById("box").style.backgroundColor = "white";
   document.getElementById("box").style.position = "absolute";
   document.getElementById("boxtext").style.display = "none";
+}
+
+function informallayout(){
+  document.getElementById("ecard4").style.display = "none";
+  document.getElementById("input4").style.display = "none";
+  document.getElementById("button4").style.display = "none";
+  document.getElementById("ecard5").style.display = "none";
+  document.getElementById("input5").style.display = "none";
+  document.getElementById("button5").style.display = "none";
+  document.getElementById("ecard6").style.display = "none";
+  document.getElementById("input6").style.display = "none";
+  document.getElementById("groom").style.border = "none";
+  document.getElementById("bride").style.border = "none";
+  document.getElementById("ecard3").style.display = "block";
+  document.getElementById("input3").style.display = "block";
+  document.getElementById("button3").style.display = "block";
+  document.getElementById("receiver").style.border = "2px solid black";
+  document.getElementById("p2").style.border = "2px solid black";
+  document.getElementById("sender").style.border = "2px solid black";
+}
+
+function formallayout1(){
+  document.getElementById("ecard3").style.display = "none";
+  document.getElementById("input3").style.display = "none";
+  document.getElementById("button3").style.display = "none";
+  document.getElementById("ecard6").style.display = "none";
+  document.getElementById("input6").style.display = "none";
+  document.getElementById("button6").style.display = "none";
+  document.getElementById("groom").style.border = "none";
+  document.getElementById("bride").style.border = "none";
+  document.getElementById("ecard5").style.display = "block";
+  document.getElementById("input5").style.display = "block";
+  document.getElementById("button5").style.display = "block";
+  document.getElementById("event").style.border = "2px solid black";
+}
+
+function formallayout2(){
+  document.getElementById("ecard3").style.display = "none";
+  document.getElementById("input3").style.display = "none";
+  document.getElementById("button3").style.display = "none";
+  document.getElementById("ecard5").style.display = "none";
+  document.getElementById("input5").style.display = "none";
+  document.getElementById("button5").style.display = "none";
+  document.getElementById("ecard6").style.display = "block";
+  document.getElementById("input6").style.display = "block";
+  document.getElementById("button6").style.display = "block";
+  document.getElementById("groom").style.border = "2px solid black";
+  document.getElementById("bride").style.border = "2px solid black";
 }
 
 //favourite functions sketch1
@@ -398,6 +447,20 @@ function formal(){
   document.getElementById("favourite3").style.display = "none";
 }
 
+//drag and drop
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop1(ev) {
+  ev.preventDefault();
+}
+
+//favourite or unfavourite
 function favourite(){
   if( fav1 == 1){
     document.getElementById("sketch1").style.display = "block";
