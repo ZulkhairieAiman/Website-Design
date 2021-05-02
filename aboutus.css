@@ -218,13 +218,9 @@ p#copyright{
   body{
     /* hide horizontal scrollbar that exceed the max width above */
     overflow-x: hidden;
-  }
-
-  #backgroundpic{
     background-image: none;
     background-color: #121212;
   }
-
 
 
   .nav-links .hamburgerbutton{
