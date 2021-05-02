@@ -54,6 +54,10 @@ nav ul li a{
   text-transform: uppercase;
 }
 
+nav ul li:hover{
+  background-color: #36393E;
+  border-bottom: : solid 1px transparent;
+}
 
 /* Homepage Content */
 #content{
