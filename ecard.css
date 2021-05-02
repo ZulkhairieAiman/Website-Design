@@ -46,7 +46,7 @@ footer.footer{
   bottom: 0;
 }
 
-button{
+.buttonecard{
   margin-left: 45%;
   margin-top: 10%;
 }
@@ -235,26 +235,6 @@ p.copyright{
   align-content: center;
 }
 
-.options{
-  position: relative;
-  top: 0px;
-  right: 8px;
-  background: white;
-  width: 300px;
-  height: 30px;
-  border: 2px solid black;
-  border-spacing: inherit;
-  border-bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-.options:hover{
-  background-color: grey;
-}
-
 .text{
   position: relative;
   top: 0px;
@@ -263,7 +243,6 @@ p.copyright{
   width: 300px;
   height: 20px;
   border: 2px solid black;
-  border-spacing: inherit;
   border-bottom: 0;
   display: flex;
   justify-content: center;
@@ -275,16 +254,22 @@ p.copyright{
   background-color: grey;
 }
 
-#option1{
-  display: none;
-  width: 300px;
-  height: 540px;
+#backgroundtype{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   top: 0px;
   right: 8px;
-  background: white;
   border: 2px solid black;
-  border-spacing: inherit;
+  border-bottom: 0;
+  width: 300px;
+  height: 40px;
+  background-color: white;
+}
+
+#option1{
+  display: none;
 }
 
 #items{
@@ -293,6 +278,28 @@ p.copyright{
   margin-left: 20%;
   list-style-type: none;
   border: 2px solid black;
+  background-color: white;
+  border: 1px solid red;
+}
+
+#itembox{
+  position: relative;
+  top: 0px;
+  right: 8px;
+  background: white;
+  width: 300px;
+  height: 220px;
+  border: 2px solid black;
+  border-bottom: 0;
+
+}
+
+#createsize{
+  position: relative;
+  background: white;
+  border: 2px solid black;
+  border-spacing: inherit;
+  border-right: none;
 }
 
 #cards{
@@ -403,7 +410,7 @@ p.copyright{
   border: 2px solid black;
   position: relative;
   float: right;
-  top: -600px;
+  top: -580px;
 }
 
 .list{

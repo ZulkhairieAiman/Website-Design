@@ -39,19 +39,30 @@
     <script src="app.js"></script>
     <script src="ecard.js"></script>
 
-    <div class="options" id="createnew" onclick="create()">
+    <div class="text" id="createnew" onclick="create()">
       <p onclick="create()">Create New<p>
       </div>
 
       <div id="option1">
-        <div>
+          <div class="text">
+            <p>E-Card Size</p>
+          </div>
+          <div id="backgroundtype">
+              <span>Landscape&nbsp;</span><button onclick="landscape()">Press!</button>
+              <span>&nbsp;</span>
+              <span>Portrait&nbsp;</span><button onclick="portrait()">Press!</button>
+          </div>
+          <div class="text">
+            Greetings
+          </div>
+          <div id="itembox">
           <ul id="items">
-            <li>cap</li>
+            <li draggable="true"></li>
           </ul>
         </div>
       </div>
 
-    <div class="options" id="predefined" onclick="predefined()">
+    <div class="text" id="predefined" onclick="predefined()">
       <p onclick="predefind()">Pre-defined E-Cards<p>
       </div>
 
@@ -71,6 +82,7 @@
     <div class="text" id="favourite" onclick="favourite()">
       <p onclick="favourite()">Favourites<p>
     </div>
+
     <div id="cards">
       <ul>
         <li id= "sketch1"><img class="pics" id= "sketch1" src="Media/E-Cards/sketch1.jpg" width="300px" height="200px" onclick="myBox1()">
@@ -270,7 +282,7 @@
           <textarea id="box7"></textarea>
         </li>
       </ul>
-      <button id ="button1"onclick="ChangeMe1()">Submit!</button>
+      <button class="buttonecard" id ="button1"onclick="ChangeMe1()">Submit!</button>
 
       <!-- input ecard2 -->
       <ul id = "input2">
@@ -293,7 +305,7 @@
           <textarea id="box13"></textarea>
         </li>
       </ul>
-      <button id ="button2"onclick="ChangeMe2()">Submit!</button>
+      <button class="buttonecard" id ="button2"onclick="ChangeMe2()">Submit!</button>
 
       <!-- input ecard3 -->
       <ul id = "input3">
@@ -307,7 +319,7 @@
           <input type="text" placeholder="Sender Name" id="box16"/>
         </li>
       </ul>
-      <button id ="button3"onclick="ChangeMe3()">Submit!</button>
+      <button class="buttonecard" id ="button3"onclick="ChangeMe3()">Submit!</button>
 
       <!-- input ecard4 -->
       <ul id = "input4">
@@ -321,7 +333,7 @@
           <input type="text" placeholder="Sender Name" id="box19"/>
         </li>
       </ul>
-      <button id ="button4"onclick="ChangeMe4()">Submit!</button>
+      <button class="buttonecard" id ="button4"onclick="ChangeMe4()">Submit!</button>
 
       <!-- input ecard5 -->
       <ul id = "input5">
@@ -353,7 +365,7 @@
           <input type="tel" placeholder="+111 111 1111" id="box28"/>
         </li>
       </ul>
-      <button id ="button5"onclick="ChangeMe5()">Submit!</button>
+      <button class="buttonecard" id ="button5"onclick="ChangeMe5()">Submit!</button>
 
       <!-- input ecard6 -->
       <ul id = "input6">
@@ -367,7 +379,7 @@
           <textarea id="box31"></textarea>
         </li>
       </ul>
-      <button id ="button6"onclick="ChangeMe6()">Submit!</button>
+      <button class="buttonecard" id ="button6"onclick="ChangeMe6()">Submit!</button>
     </div>
 
     <footer class="footer">

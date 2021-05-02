@@ -9,6 +9,29 @@ function predefined(){
   document.getElementById("option2").style.display = "block";
 }
 
+function landscape(){
+  document.getElementById("box").style.display = "block";
+  document.getElementById("box").style.width = "600px";
+  document.getElementById("box").style.height = "450px";
+  document.getElementById("box").style.opacity = "1.0";
+  document.getElementById("box").style.border = "none";
+  document.getElementById("box").style.backgroundColor = "white";
+  document.getElementById("box").style.position = "fixed";
+  document.getElementById("boxtext").style.display = "none";
+}
+
+function portrait(){
+  document.getElementById("box").style.display = "block";
+  document.getElementById("box").style.width = "450px";
+  document.getElementById("box").style.height = "600px";
+  document.getElementById("box").style.opacity = "1.0";
+  document.getElementById("box").style.left = "33.5%";
+  document.getElementById("box").style.border = "none";
+  document.getElementById("box").style.backgroundColor = "white";
+  document.getElementById("box").style.position = "absolute";
+  document.getElementById("boxtext").style.display = "none";
+}
+
 //favourite functions sketch1
 var fav1;
 fav1 = 0;
