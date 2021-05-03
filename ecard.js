@@ -45,8 +45,9 @@ function predefined(){
   document.getElementById("groom").style.border = "none";
   document.getElementById("bride").style.border = "none";
   document.getElementById("event").style.border = "none";
-  document.getElementById("groom").style.border = "none";
-  document.getElementById("bride").style.border = "none";
+  document.getElementById("receiver").style.border = "none";
+  document.getElementById("p2").style.border = "none";
+  document.getElementById("sender").style.border = "none";
 }
 
 function landscape(){
