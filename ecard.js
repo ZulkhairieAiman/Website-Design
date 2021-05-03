@@ -79,9 +79,10 @@ function informallayout(){
   document.getElementById("button6").style.display = "none";
   document.getElementById("groom").style.border = "none";
   document.getElementById("bride").style.border = "none";
+  document.getElementById("confirm5").style.display = "none";
+  document.getElementById("confirm6").style.display = "none";
   document.getElementById("button5").style.display = "none";
   document.getElementById("button6").style.display = "none";
-  document.getElementById("load3").style.display = "none";
   document.getElementById("ecard3").style.display = "block";
   document.getElementById("input3").style.display = "block";
   document.getElementById("button3").style.display = "block";
@@ -103,6 +104,7 @@ function formallayout1(){
   document.getElementById("groom").style.border = "none";
   document.getElementById("bride").style.border = "none";
   document.getElementById("load3").style.display = "none";
+  document.getElementById("confirm3").style.display = "none";
   document.getElementById("confirm6").style.display = "none";
   document.getElementById("ecard5").style.display = "block";
   document.getElementById("input5").style.display = "block";
