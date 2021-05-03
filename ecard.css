@@ -959,6 +959,34 @@ p.copyright{
   display: none;
 }
 
+#save1{
+  display: none;
+}
+
+#save2{
+  display: none;
+}
+
+#save3{
+  display: none;
+}
+
+#save4{
+  display: none;
+}
+
+#save5{
+  display: none;
+}
+
+#save6{
+  display: none;
+}
+
+#load3{
+  display: none;
+}
+
 /* responsive web design for small devices */
 @media screen and (max-width: 600px) {
   body{

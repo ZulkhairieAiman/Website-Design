@@ -68,7 +68,7 @@
           </div>
           <div id="itembox">
           <ul>
-            <li class="items" draggable="true" ondrop="drop(event)" ondragstart="drag(event)"><span>Mr</span></li>
+            <li class="items" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)><span draggable="true" ondragstart="dragStart(event)">Mr</span></li>
             <li class="items" draggable="true" ondrop="drop(event)" ondragstart="drag(event)"><span>Mrs</span></li>
             <li class="items" draggable="true" ondrop="drop(event)" ondragstart="drag(event)"><span>Miss</span></li>
             <li class="items" draggable="true" ondrop="drop(event)" ondragstart="drag(event)"><span>Sir</span></li>
@@ -89,7 +89,7 @@
         </div>
       </div>
 
-    <div class="text" id="predefined" onclick="predefined()">
+    <div class="text"onclick="predefined()">
       <p onclick="predefind()">Pre-defined E-Cards<p>
       </div>
 
@@ -206,7 +206,9 @@
     <div id="back3">
       <div id="dear">
         <span>Dear&nbsp;</span>
-        <span id="receiver2">Name</span>
+        <div ondragenter="dragEnter(event)" ondragleave="dragLeave(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <span id="receiver2" ondragstart="dragStart(event)">Name</span>
+      </div>
         <span>,</span>
         </div>
     <div id="p3">
@@ -315,6 +317,7 @@
         </li>
       </ul>
       <button class="buttonecard" id ="button1"onclick="ChangeMe1()">Confirm Changes</button>
+      <button class="buttonecard" id ="save1"onclick="SaveMe1()">Favourite Changes?</button>
       <button class="buttonecard" id ="confirm1" onclick="submitMe()">Submit!</button>
 
       <!-- input ecard2 -->
@@ -339,6 +342,7 @@
         </li>
       </ul>
       <button class="buttonecard" id ="button2"onclick="ChangeMe2()">Confirm Changes</button>
+      <button class="buttonecard" id ="save2"onclick="SaveMe2()">Favourite Changes?</button>
       <button class="buttonecard" id ="confirm2"onclick="submitMe()">Submit!</button>
 
       <!-- input ecard3 -->
@@ -354,6 +358,8 @@
         </li>
       </ul>
       <button class="buttonecard" id ="button3"onclick="ChangeMe3()">Confirm Changes</button>
+      <button class="buttonecard" id ="save3"onclick="SaveMe3()">Favourite Changes?</button>
+      <button class="buttonecard" id="load3" onclick"favList()">Load Favourite Changes?</button>
       <button class="buttonecard" id ="confirm3" onclick="submitMe()">Submit!</button>
 
       <!-- input ecard4 -->
@@ -369,6 +375,7 @@
         </li>
       </ul>
       <button class="buttonecard" id ="button4"onclick="ChangeMe4()">Confirm Changes</button>
+      <button class="buttonecard" id ="save4"onclick="SaveMe4()">Favourite Changes?</button>
       <button class="buttonecard" id ="confirm4" onclick="submitMe()">Submit!</button>
 
       <!-- input ecard5 -->
@@ -402,6 +409,7 @@
         </li>
       </ul>
       <button class="buttonecard" id ="button5"onclick="ChangeMe5()">Confirm Changes</button>
+      <button class="buttonecard" id ="save5"onclick="SaveMe5()">Favourite Changes?</button>
       <button class="buttonecard" id ="confirm5" onclick="submitMe()">Submit!</button>
 
       <!-- input ecard6 -->
@@ -417,6 +425,7 @@
         </li>
       </ul>
       <button class="buttonecard" id ="button6"onclick="ChangeMe6()">Confirm Changes</button>
+      <button class="buttonecard" id ="save6"onclick="SaveMe6()">Favourite Changes?</button>
       <button class="buttonecard" id ="confirm6" onclick="submitMe()">Submit!</button>
     </div>
 

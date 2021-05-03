@@ -27,6 +27,7 @@ function create(){
   document.getElementById("confirm4").style.display = "none";
   document.getElementById("confirm5").style.display = "none";
   document.getElementById("confirm6").style.display = "none";
+  document.getElementById("load3").style.display = "none";
   document.getElementById("box").style.backgroundImage = "none";
   document.getElementById("box").style.opacity = "0.07";
   document.getElementById("box").style.border = "1px dotted white";
@@ -80,6 +81,7 @@ function informallayout(){
   document.getElementById("bride").style.border = "none";
   document.getElementById("button5").style.display = "none";
   document.getElementById("button6").style.display = "none";
+  document.getElementById("load3").style.display = "none";
   document.getElementById("ecard3").style.display = "block";
   document.getElementById("input3").style.display = "block";
   document.getElementById("button3").style.display = "block";
@@ -87,6 +89,7 @@ function informallayout(){
   document.getElementById("p2").style.border = "2px solid black";
   document.getElementById("sender").style.border = "2px solid black";
   document.getElementById("confirm3").style.display = "block";
+  document.getElementById("load3").style.display = "block";
 }
 
 function formallayout1(){
@@ -99,6 +102,7 @@ function formallayout1(){
   document.getElementById("button6").style.display = "none";
   document.getElementById("groom").style.border = "none";
   document.getElementById("bride").style.border = "none";
+  document.getElementById("load3").style.display = "none";
   document.getElementById("confirm6").style.display = "none";
   document.getElementById("ecard5").style.display = "block";
   document.getElementById("input5").style.display = "block";
@@ -119,6 +123,7 @@ function formallayout2(){
   document.getElementById("button6").style.display = "block";
   document.getElementById("confirm3").style.display = "none";
   document.getElementById("confirm5").style.display = "none";
+  document.getElementById("load3").style.display = "none";
   document.getElementById("groom").style.border = "2px solid black";
   document.getElementById("bride").style.border = "2px solid black";
   document.getElementById("confirm6").style.display = "block";
@@ -246,6 +251,12 @@ function myBox1(){
   document.getElementById("confirm4").style.display = "none";
   document.getElementById("confirm5").style.display = "none";
   document.getElementById("confirm6").style.display = "none";
+  document.getElementById("save2").style.display = "none";
+  document.getElementById("save3").style.display = "none";
+  document.getElementById("save4").style.display = "none";
+  document.getElementById("save5").style.display = "none";
+  document.getElementById("save6").style.display = "none";
+  document.getElementById("load3").style.display = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/corporate1.jpg')";
   document.getElementById("box").style.display = "block";
   document.getElementById("box").style.position = "fixed";
@@ -258,6 +269,7 @@ function myBox1(){
   document.getElementById("input1").style.display = "block";
   document.getElementById("button1").style.display = "block";
   document.getElementById("confirm1").style.display = "block";
+  document.getElementById("save1").style.display = "block";
 }
 
 //shows ecard2
@@ -285,6 +297,12 @@ function myBox2(){
   document.getElementById("confirm4").style.display = "none";
   document.getElementById("confirm5").style.display = "none";
   document.getElementById("confirm6").style.display = "none";
+  document.getElementById("save1").style.display = "none";
+  document.getElementById("save3").style.display = "none";
+  document.getElementById("save4").style.display = "none";
+  document.getElementById("save5").style.display = "none";
+  document.getElementById("save6").style.display = "none";
+  document.getElementById("load3").style.display = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/corporate2.jpg')";
   document.getElementById("box").style.display = "block";
   document.getElementById("box").style.position = "fixed";
@@ -298,6 +316,7 @@ function myBox2(){
   document.getElementById("input2").style.display = "block";
   document.getElementById("button2").style.display = "block";
   document.getElementById("confirm2").style.display = "block";
+  document.getElementById("save2").style.display = "block";
 }
 
 //shows ecard3
@@ -328,6 +347,11 @@ function myBox3(){
   document.getElementById("confirm4").style.display = "none";
   document.getElementById("confirm5").style.display = "none";
   document.getElementById("confirm6").style.display = "none";
+  document.getElementById("save1").style.display = "none";
+  document.getElementById("save2").style.display = "none";
+  document.getElementById("save4").style.display = "none";
+  document.getElementById("save5").style.display = "none";
+  document.getElementById("save6").style.display = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/informal1back.jpg')";
   document.getElementById("box").style.display = "block";
   document.getElementById("box").style.position = "fixed";
@@ -338,7 +362,9 @@ function myBox3(){
   document.getElementById("ecard3").style.display = "block";
   document.getElementById("input3").style.display = "block";
   document.getElementById("button3").style.display = "block";
-  document.getElementById("confirm1").style.display = "block";
+  document.getElementById("confirm3").style.display = "block";
+  document.getElementById("save3").style.display = "block";
+  document.getElementById("load3").style.display = "block";
 }
 
 //shows ecard4
@@ -369,6 +395,12 @@ function myBox4(){
   document.getElementById("confirm3").style.display = "none";
   document.getElementById("confirm5").style.display = "none";
   document.getElementById("confirm6").style.display = "none";
+  document.getElementById("save1").style.display = "none";
+  document.getElementById("save2").style.display = "none";
+  document.getElementById("save3").style.display = "none";
+  document.getElementById("save5").style.display = "none";
+  document.getElementById("save6").style.display = "none";
+  document.getElementById("load3").style.display = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/informal2back.jpg')";
   document.getElementById("box").style.display = "block";
   document.getElementById("box").style.position = "fixed";
@@ -380,6 +412,7 @@ function myBox4(){
   document.getElementById("input4").style.display = "block";
   document.getElementById("button4").style.display = "block";
   document.getElementById("confirm4").style.display = "block";
+  document.getElementById("save4").style.display = "block";
 }
 
 //shows ecard5
@@ -410,6 +443,12 @@ function myBox5(){
   document.getElementById("confirm3").style.display = "none";
   document.getElementById("confirm4").style.display = "none";
   document.getElementById("confirm6").style.display = "none";
+  document.getElementById("save1").style.display = "none";
+  document.getElementById("save2").style.display = "none";
+  document.getElementById("save3").style.display = "none";
+  document.getElementById("save4").style.display = "none";
+  document.getElementById("save6").style.display = "none";
+  document.getElementById("load3").style.display = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/formal1.jpg')";
   document.getElementById("box").style.display = "block";
   document.getElementById("box").style.position = "absolute";
@@ -421,6 +460,7 @@ function myBox5(){
   document.getElementById("input5").style.display = "block";
   document.getElementById("button5").style.display = "block";
   document.getElementById("confirm5").style.display = "block";
+  document.getElementById("save5").style.display = "block";
 }
 
 //shows ecard6
@@ -451,6 +491,12 @@ function myBox6(){
   document.getElementById("confirm3").style.display = "none";
   document.getElementById("confirm4").style.display = "none";
   document.getElementById("confirm5").style.display = "none";
+  document.getElementById("save1").style.display = "none";
+  document.getElementById("save2").style.display = "none";
+  document.getElementById("save3").style.display = "none";
+  document.getElementById("save4").style.display = "none";
+  document.getElementById("save5").style.display = "none";
+  document.getElementById("load3").style.display = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/formal2.jpg')";
   document.getElementById("box").style.display = "block";
   document.getElementById("box").style.position = "absolute";
@@ -462,6 +508,7 @@ function myBox6(){
   document.getElementById("input6").style.display = "block";
   document.getElementById("button6").style.display = "block";
   document.getElementById("confirm6").style.display = "block";
+  document.getElementById("save6").style.display = "block";
 }
 
 //hides and shows cards depending on themes
@@ -527,16 +574,18 @@ function formal(){
 }
 
 //drag and drop
-function allowDrop(ev) {
-  ev.preventDefault();
+function dragStart(event) {
+  event.dataTransfer.setData("Text", event.target.id);
 }
 
-function drag(ev) {
-  ev.dataTransfer.setData("text", ev.target.id);
+function allowDrop(event) {
+  event.preventDefault();
 }
 
-function drop1(ev) {
-  ev.preventDefault();
+function drop(event) {
+  event.preventDefault();
+  var data = event.dataTransfer.getData("Text");
+  event.target.appendChild(document.getElementById(data));
 }
 
 //favourite or unfavourite
@@ -805,4 +854,71 @@ function submitMe(){
   if (answer) {
     alert("E-Card was sent successfully to recipient!");
   }
+}
+
+//save changes of input and put in favourite
+function SaveMe1(){
+  localStorage.setItem('title', title);
+  localStorage.setItem('job1', job);
+  localStorage.setItem('phoneno1', phone1);
+  localStorage.setItem('phoneno2', phone2);
+  localStorage.setItem('email', email);
+  localStorage.setItem('url', url);
+  localStorage.setItem('address', address);
+}
+
+function SaveMe2(){
+  localStorage.setItem('name', name);
+  localStorage.setItem('job2', job);
+  localStorage.setItem('address', address);
+  localStorage.setItem('phoneno3', phone);
+  localStorage.setItem('email2', email);
+  localStorage.setItem('url2', url);
+}
+
+function SaveMe3(){
+  localStorage.setItem("receiver", receiver);
+  localStorage.setItem("p2", desc);
+  localStorage.setItem("sender", sender);
+}
+
+function SaveMe4(){
+  localStorage.setItem('receiver2', receiver);
+  localStorage.setItem('p3', desc);
+  localStorage.setItem('sender2', sender);
+}
+
+function SaveMe5(){
+  localStorage.setItem('event', eventname);
+  localStorage.setItem('host', name);
+  localStorage.setItem('date', date);
+  localStorage.setItem('timestart', timestart);
+  localStorage.setItem('timeend', time2);
+  localStorage.setItem('loation', location);
+  localStorage.setItem('address3', address);
+  localStorage.setItem('country', country);
+  localStorage.setItem('phoneno4', phone);
+}
+
+function favList(){
+  document.getElementById("box").style.border = "none";
+  document.getElementById("boxtext").style.display = "none";
+  document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/informal1back.jpg')";
+  document.getElementById("box").style.display = "block";
+  document.getElementById("box").style.position = "fixed";
+  document.getElementById("box").style.opacity = "1.0";
+  document.getElementById("box").style.width = "600px";
+  document.getElementById("box").style.height = "450px";
+  document.getElementById("box").style.left = "27.5%";
+  document.getElementById("ecard3").style.display = "block";
+  document.getElementById("input3").style.display = "block";
+  document.getElementById("button3").style.display = "block";
+  document.getElementById("confirm3").style.display = "block";
+  document.getElementById("save3").style.display = "block";
+  localStorage.getItem("receiver");
+  localStorage.getItem("p2");
+  localStorage.getItem("sender");
+  document.getElementById("receiver").innerHTML = receiver;
+  document.getElementById("p2").innerHTML = desc;
+  document.getElementById("sender").innerHTML = sender;
 }
