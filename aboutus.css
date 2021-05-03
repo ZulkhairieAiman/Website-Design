@@ -214,7 +214,7 @@ p#copyright{
 }
 
 /* responsive web design for small devices */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   body{
     /* hide horizontal scrollbar that exceed the max width above */
     overflow-x: hidden;
