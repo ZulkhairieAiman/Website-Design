@@ -42,6 +42,11 @@ function predefined(){
   document.getElementById("option1").style.display = "none";
   document.getElementById("option2").style.display = "block";
   document.getElementById("ecard").style.top = "-580px";
+  document.getElementById("groom").style.border = "none";
+  document.getElementById("bride").style.border = "none";
+  document.getElementById("event").style.border = "none";
+  document.getElementById("groom").style.border = "none";
+  document.getElementById("bride").style.border = "none";
 }
 
 function landscape(){
