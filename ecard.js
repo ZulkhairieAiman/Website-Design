@@ -21,6 +21,12 @@ function create(){
   document.getElementById("white").style.display = "none";
   document.getElementById("input1").style.display = "none";
   document.getElementById("button1").style.display = "none";
+  document.getElementById("confirm1").style.display = "none";
+  document.getElementById("confirm2").style.display = "none";
+  document.getElementById("confirm3").style.display = "none";
+  document.getElementById("confirm4").style.display = "none";
+  document.getElementById("confirm5").style.display = "none";
+  document.getElementById("confirm6").style.display = "none";
   document.getElementById("box").style.backgroundImage = "none";
   document.getElementById("box").style.opacity = "0.07";
   document.getElementById("box").style.border = "1px dotted white";
@@ -81,6 +87,7 @@ function informallayout(){
   document.getElementById("receiver").style.border = "2px solid black";
   document.getElementById("p2").style.border = "2px solid black";
   document.getElementById("sender").style.border = "2px solid black";
+  document.getElementById("confirm3").style.display = "block";
 }
 
 function formallayout1(){
@@ -96,6 +103,7 @@ function formallayout1(){
   document.getElementById("input5").style.display = "block";
   document.getElementById("button5").style.display = "block";
   document.getElementById("event").style.border = "2px solid black";
+  document.getElementById("confirm5").style.display = "block";
 }
 
 function formallayout2(){
@@ -110,6 +118,7 @@ function formallayout2(){
   document.getElementById("button6").style.display = "block";
   document.getElementById("groom").style.border = "2px solid black";
   document.getElementById("bride").style.border = "2px solid black";
+  document.getElementById("confirm6").style.display = "block";
 }
 
 //favourite functions sketch1
@@ -229,6 +238,11 @@ function myBox1(){
   document.getElementById("button4").style.display = "none";
   document.getElementById("boxtext").style.display = "none";
   document.getElementById("box").style.border = "none";
+  document.getElementById("confirm2").style.display = "none";
+  document.getElementById("confirm3").style.display = "none";
+  document.getElementById("confirm4").style.display = "none";
+  document.getElementById("confirm5").style.display = "none";
+  document.getElementById("confirm6").style.display = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/corporate1.jpg')";
   document.getElementById("box").style.display = "block";
   document.getElementById("box").style.position = "fixed";
@@ -262,6 +276,11 @@ function myBox2(){
   document.getElementById("button4").style.display = "none";
   document.getElementById("boxtext").style.display = "none";
   document.getElementById("box").style.border = "none";
+  document.getElementById("confirm1").style.display = "none";
+  document.getElementById("confirm3").style.display = "none";
+  document.getElementById("confirm4").style.display = "none";
+  document.getElementById("confirm5").style.display = "none";
+  document.getElementById("confirm6").style.display = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/corporate2.jpg')";
   document.getElementById("box").style.display = "block";
   document.getElementById("box").style.position = "fixed";
@@ -274,6 +293,7 @@ function myBox2(){
   document.getElementById("creds2").style.display = "block";
   document.getElementById("input2").style.display = "block";
   document.getElementById("button2").style.display = "block";
+  document.getElementById("confirm1").style.display = "block";
 }
 
 //shows ecard3
@@ -299,6 +319,11 @@ function myBox3(){
   document.getElementById("button4").style.display = "none";
   document.getElementById("boxtext").style.display = "none";
   document.getElementById("box").style.border = "none";
+  document.getElementById("confirm1").style.display = "none";
+  document.getElementById("confirm2").style.display = "none";
+  document.getElementById("confirm4").style.display = "none";
+  document.getElementById("confirm5").style.display = "none";
+  document.getElementById("confirm6").style.display = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/informal1back.jpg')";
   document.getElementById("box").style.display = "block";
   document.getElementById("box").style.position = "fixed";
@@ -309,6 +334,7 @@ function myBox3(){
   document.getElementById("ecard3").style.display = "block";
   document.getElementById("input3").style.display = "block";
   document.getElementById("button3").style.display = "block";
+  document.getElementById("confirm1").style.display = "block";
 }
 
 //shows ecard4
@@ -334,6 +360,11 @@ function myBox4(){
   document.getElementById("button3").style.display = "none";
   document.getElementById("boxtext").style.display = "none";
   document.getElementById("box").style.border = "none";
+  document.getElementById("confirm1").style.display = "none";
+  document.getElementById("confirm2").style.display = "none";
+  document.getElementById("confirm3").style.display = "none";
+  document.getElementById("confirm5").style.display = "none";
+  document.getElementById("confirm6").style.display = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/informal2back.jpg')";
   document.getElementById("box").style.display = "block";
   document.getElementById("box").style.position = "fixed";
@@ -344,6 +375,7 @@ function myBox4(){
   document.getElementById("ecard4").style.display = "block";
   document.getElementById("input4").style.display = "block";
   document.getElementById("button4").style.display = "block";
+  document.getElementById("confirm4").style.display = "block";
 }
 
 //shows ecard5
@@ -369,6 +401,11 @@ function myBox5(){
   document.getElementById("button4").style.display = "none";
   document.getElementById("boxtext").style.display = "none";
   document.getElementById("box").style.border = "none";
+  document.getElementById("confirm1").style.display = "none";
+  document.getElementById("confirm2").style.display = "none";
+  document.getElementById("confirm3").style.display = "none";
+  document.getElementById("confirm4").style.display = "none";
+  document.getElementById("confirm6").style.display = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/formal1.jpg')";
   document.getElementById("box").style.display = "block";
   document.getElementById("box").style.position = "absolute";
@@ -379,6 +416,7 @@ function myBox5(){
   document.getElementById("ecard5").style.display = "block";
   document.getElementById("input5").style.display = "block";
   document.getElementById("button5").style.display = "block";
+  document.getElementById("confirm5").style.display = "block";
 }
 
 //shows ecard6
@@ -404,6 +442,11 @@ function myBox6(){
   document.getElementById("button4").style.display = "none";
   document.getElementById("boxtext").style.display = "none";
   document.getElementById("box").style.border = "none";
+  document.getElementById("confirm1").style.display = "none";
+  document.getElementById("confirm2").style.display = "none";
+  document.getElementById("confirm3").style.display = "none";
+  document.getElementById("confirm4").style.display = "none";
+  document.getElementById("confirm5").style.display = "none";
   document.getElementById("box").style.backgroundImage = "url('Media/E-Cards/formal2.jpg')";
   document.getElementById("box").style.display = "block";
   document.getElementById("box").style.position = "absolute";
@@ -414,6 +457,7 @@ function myBox6(){
   document.getElementById("ecard6").style.display = "block";
   document.getElementById("input6").style.display = "block";
   document.getElementById("button6").style.display = "block";
+  document.getElementById("confirm6").style.display = "block";
 }
 
 //hides and shows cards depending on themes
@@ -749,4 +793,12 @@ function ChangeMe2(){
       var box31 = document.getElementById("p1");
       box31.innerHTML = desc;
     }
+}
+
+//confirmation submission
+function submitMe(){
+  var answer = window.confirm("Save and send changes to recipient?");
+  if (answer) {
+    alert("E-Card was sent successfully to recipient!");
+  }
 }
