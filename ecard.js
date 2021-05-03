@@ -70,9 +70,6 @@ function portrait(){
 }
 
 function informallayout(){
-  document.getElementById("ecard4").style.display = "none";
-  document.getElementById("input4").style.display = "none";
-  document.getElementById("button4").style.display = "none";
   document.getElementById("ecard5").style.display = "none";
   document.getElementById("input5").style.display = "none";
   document.getElementById("button5").style.display = "none";
@@ -81,6 +78,8 @@ function informallayout(){
   document.getElementById("button6").style.display = "none";
   document.getElementById("groom").style.border = "none";
   document.getElementById("bride").style.border = "none";
+  document.getElementById("button5").style.display = "none";
+  document.getElementById("button6").style.display = "none";
   document.getElementById("ecard3").style.display = "block";
   document.getElementById("input3").style.display = "block";
   document.getElementById("button3").style.display = "block";
@@ -96,9 +95,11 @@ function formallayout1(){
   document.getElementById("button3").style.display = "none";
   document.getElementById("ecard6").style.display = "none";
   document.getElementById("input6").style.display = "none";
+  document.getElementById("button3").style.display = "none";
   document.getElementById("button6").style.display = "none";
   document.getElementById("groom").style.border = "none";
   document.getElementById("bride").style.border = "none";
+  document.getElementById("confirm6").style.display = "none";
   document.getElementById("ecard5").style.display = "block";
   document.getElementById("input5").style.display = "block";
   document.getElementById("button5").style.display = "block";
@@ -116,6 +117,8 @@ function formallayout2(){
   document.getElementById("ecard6").style.display = "block";
   document.getElementById("input6").style.display = "block";
   document.getElementById("button6").style.display = "block";
+  document.getElementById("confirm3").style.display = "none";
+  document.getElementById("confirm5").style.display = "none";
   document.getElementById("groom").style.border = "2px solid black";
   document.getElementById("bride").style.border = "2px solid black";
   document.getElementById("confirm6").style.display = "block";
@@ -254,6 +257,7 @@ function myBox1(){
   document.getElementById("white").style.display = "flex";
   document.getElementById("input1").style.display = "block";
   document.getElementById("button1").style.display = "block";
+  document.getElementById("confirm1").style.display = "block";
 }
 
 //shows ecard2
@@ -293,7 +297,7 @@ function myBox2(){
   document.getElementById("creds2").style.display = "block";
   document.getElementById("input2").style.display = "block";
   document.getElementById("button2").style.display = "block";
-  document.getElementById("confirm1").style.display = "block";
+  document.getElementById("confirm2").style.display = "block";
 }
 
 //shows ecard3

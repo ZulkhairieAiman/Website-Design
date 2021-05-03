@@ -506,7 +506,7 @@ p.copyright{
 #ecard{
   display: block;
   width: 300px;
-  height: 550px;
+  height: 650px;
   background: white;
   border: 2px solid black;
   position: relative;
@@ -932,3 +932,34 @@ p.copyright{
 #button6{
   display: none;
 }
+
+#confirm1{
+  display: none;
+}
+
+#confirm2{
+  display: none;
+}
+
+#confirm3{
+  display: none;
+}
+
+#confirm4{
+  display: none;
+}
+
+#confirm5{
+  display: none;
+}
+
+#confirm6{
+  display: none;
+}
+
+/* responsive web design for small devices */
+@media screen and (max-width: 600px) {
+  body{
+    /* hide horizontal scrollbar that exceed the max width above */
+    overflow-x: hidden;
+  }
