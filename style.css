@@ -214,7 +214,7 @@ p#copyright{
 }
 
 /* responsive web design for small devices */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   body{
     /* hide horizontal scrollbar that exceed the max width above */
     overflow-x: hidden;
@@ -260,22 +260,26 @@ p#copyright{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 700px;
-    height: 800px;
+    width: 360px;
+    height: 960px;
     align-items: center;
     margin-top: 520px;
-    margin-right: 320px;
+    /* margin-right: 320px; */
     grid-gap: 20px;
   }
 
-  .box1, .box2, .box3{
-    margin-right: 23%;
+  /* .box1, .box2, .box3{
+    margin-right: 50%;
     height: 800px;
     width: 300px;
-  }
+  } */
 
   .imagebox #padbot{
     padding: 30px;
+  }
+
+  #desc{
+    max-width: 300px;
   }
 }
 
