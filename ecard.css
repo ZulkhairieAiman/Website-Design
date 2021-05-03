@@ -133,26 +133,29 @@ p.copyright{
   }
   .nav-links{
     /* moves the links inside hamburger */
-    position: absolute;
+    position: fixed;
     right: 0px;
-    height: 90vh;
-    top: 8vh;
+    height: 100%;
+    top: 0vh;
     background-color: #4f4794;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 35%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
+    z-index: 1;
   }
 
   .nav-links li{
+    text-align: center;
     opacity: 0;
   }
 
   .hamburgerbutton{
     /* to make hamburger button visible on responsive mode */
     display: block;
+    z-index: 2;
   }
 }
 
@@ -247,7 +250,6 @@ p.copyright{
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
 }
 
 .text:hover{
