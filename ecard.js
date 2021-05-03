@@ -1,12 +1,40 @@
 //creating own ecard
 function create(){
+  document.getElementById("logo2").style.display = "none";
+  document.getElementById("initial").style.display = "none";
+  document.getElementById("creds2").style.display = "none";
+  document.getElementById("ecard5").style.display = "none";
+  document.getElementById("input2").style.display = "none";
+  document.getElementById("input5").style.display = "none";
+  document.getElementById("button2").style.display = "none";
+  document.getElementById("button5").style.display = "none";
+  document.getElementById("ecard6").style.display = "none";
+  document.getElementById("input6").style.display = "none";
+  document.getElementById("button6").style.display = "none";
+  document.getElementById("ecard3").style.display = "none";
+  document.getElementById("input3").style.display = "none";
+  document.getElementById("button3").style.display = "none";
+  document.getElementById("ecard4").style.display = "none";
+  document.getElementById("input4").style.display = "none";
+  document.getElementById("button4").style.display = "none";
+  document.getElementById("black").style.display = "none";
+  document.getElementById("white").style.display = "none";
+  document.getElementById("input1").style.display = "none";
+  document.getElementById("button1").style.display = "none";
+  document.getElementById("box").style.backgroundImage = "none";
+  document.getElementById("box").style.opacity = "0.07";
+  document.getElementById("box").style.border = "1px dotted white";
+  document.getElementById("box").style.borderWidth = "thick";
+  document.getElementById("boxtext").style.display = "flex";
   document.getElementById("option2").style.display = "none";
   document.getElementById("option1").style.display = "block";
+  document.getElementById("ecard").style.top = "-500px";
 }
 
 function predefined(){
   document.getElementById("option1").style.display = "none";
   document.getElementById("option2").style.display = "block";
+  document.getElementById("ecard").style.top = "-580px";
 }
 
 function landscape(){
@@ -16,6 +44,7 @@ function landscape(){
   document.getElementById("box").style.left = "27.5%";
   document.getElementById("box").style.opacity = "1.0";
   document.getElementById("box").style.border = "none";
+  document.getElementById("boxtext").style.display = "none";
   document.getElementById("box").style.backgroundColor = "white";
   document.getElementById("box").style.position = "fixed";
   document.getElementById("boxtext").style.display = "none";
@@ -28,6 +57,7 @@ function portrait(){
   document.getElementById("box").style.opacity = "1.0";
   document.getElementById("box").style.left = "33.5%";
   document.getElementById("box").style.border = "none";
+  document.getElementById("boxtext").style.display = "none";
   document.getElementById("box").style.backgroundColor = "white";
   document.getElementById("box").style.position = "absolute";
   document.getElementById("boxtext").style.display = "none";
@@ -42,6 +72,7 @@ function informallayout(){
   document.getElementById("button5").style.display = "none";
   document.getElementById("ecard6").style.display = "none";
   document.getElementById("input6").style.display = "none";
+  document.getElementById("button6").style.display = "none";
   document.getElementById("groom").style.border = "none";
   document.getElementById("bride").style.border = "none";
   document.getElementById("ecard3").style.display = "block";
@@ -139,8 +170,8 @@ function favMe4() {
     fav4 = 1;
   }
   else if(fav4 == 1){
-    document.getElementById("favourite1").style.backgroundImage = "none";
-    document.getElementById("favourite1").style.backgroundSize = "30px";
+    document.getElementById("favourite4").style.backgroundImage = "none";
+    document.getElementById("favourite4").style.backgroundSize = "30px";
     fav4 = 0;
   }
 }
@@ -150,13 +181,13 @@ var fav5;
 fav5 = 0;
 function favMe5() {
   if(fav5 == 0){
-    document.getElementById("favourite1").style.backgroundImage = "url('Media/Icons/favourite.png')";
-    document.getElementById("favourite1").style.backgroundSize = "30px";
+    document.getElementById("favourite5").style.backgroundImage = "url('Media/Icons/favourite.png')";
+    document.getElementById("favourite5").style.backgroundSize = "30px";
     fav5 = 1;
   }
   else if(fav5 == 1){
-    document.getElementById("favourite1").style.backgroundImage = "none";
-    document.getElementById("favourite1").style.backgroundSize = "30px";
+    document.getElementById("favourite5").style.backgroundImage = "none";
+    document.getElementById("favourite5").style.backgroundSize = "30px";
     fav5 = 0;
   }
 }
@@ -166,13 +197,13 @@ var fav6;
 fav6 = 0;
 function favMe6() {
   if(fav6 == 0){
-    document.getElementById("favourite1").style.backgroundImage = "url('Media/Icons/favourite.png')";
-    document.getElementById("favourite1").style.backgroundSize = "30px";
+    document.getElementById("favourite6").style.backgroundImage = "url('Media/Icons/favourite.png')";
+    document.getElementById("favourite6").style.backgroundSize = "30px";
     fav6 = 1;
   }
   else if(fav6 == 1){
-    document.getElementById("favourite1").style.backgroundImage = "none";
-    document.getElementById("favourite1").style.backgroundSize = "30px";
+    document.getElementById("favourite6").style.backgroundImage = "none";
+    document.getElementById("favourite6").style.backgroundSize = "30px";
     fav6 = 0;
   }
 }
